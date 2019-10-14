@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2c06cee-c800-43a3-a4ba-f9ecb5296495" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-cu/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-dependency/renren-dependency-pay/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-framework/renren-framework-aspect/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-cu/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-attachment/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-attachment/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-logOut/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-app/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-framework/renren-framework-exception/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-attachment/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-log/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-other/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-base/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-mq/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-other/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-app/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-dependency/renren-dependency-auth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-app/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-info/target/" />
+    <ignored path="$PROJECT_DIR$/renren-framework/renren-framework-utils/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-cu/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/" />
+    <ignored path="$PROJECT_DIR$/renren-generator/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/target/" />
+    <ignored path="$PROJECT_DIR$/renren-framework/renren-framework-annotation/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-framework/target/" />
+    <ignored path="$PROJECT_DIR$/renren-dependency/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-token/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-log/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-common/target/" />
+    <ignored path="$PROJECT_DIR$/renren-dependency/renren-dependency-api/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-weixin/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-log/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-access/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-app/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-cu/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-log/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-app/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-cu/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-log/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-service/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-token/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-attachment/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-attachment/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-other/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-other/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-access/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-info/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-sys/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-logOut/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-weixin/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/target/" />
+    <ignored path="$PROJECT_DIR$/renren-docker/target/" />
+    <ignored path="$PROJECT_DIR$/renren-docker/renren-docker-localhost/target/" />
+    <ignored path="$PROJECT_DIR$/renren-docker/renren-docker-aliyun/target/" />
+    <ignored path="$PROJECT_DIR$/renren-docker/renren-docker-aliyun/renren-docker-aliyun-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-device/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-shop/target/" />
+    <ignored path="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPreZuulFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/config/FilterConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPostZuulFilter.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowGroupBy>Class</toolWindowGroupBy>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>io.renren.modules.queue.cu.customer.profit</find>
+      <find>selectByUserId</find>
+      <find>权限不足</find>
+      <find>异常</find>
+      <find>1359b2ece9ea435aa4ffc76303a03938</find>
+      <find>异常:</find>
+      <find>p12</find>
+      <find>io.renren.modules.queue.sys.sysLog</find>
+      <find>signature</find>
+      <find>支付成功</find>
+      <find>sn</find>
+      <find>您没有该服务的访问权限权限不足</find>
+      <find>system</find>
+      <find>searchUser</find>
+      <find>/api-${moduleName}</find>
+      <find>SysDictOptionApi</find>
+      <find>io.renren.modules.queue.sys.sysOauthCode</find>
+      <find>cu_account</find>
+      <find>io.renren.modules.queue.sys.sysOauthCode.updte</find>
+      <find>io.renren.modules.queue.cu.customer</find>
+      <find>io.renren.modules.queue.agent.bus.customer</find>
+      <find>${menu}</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\work\0830\renren-security\renren-common\src\main\java</dir>
+      <dir>D:\work\091001\renren-security\renren-generator</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/src/main/java/io/renren/modules/sys/service/impl/SysOauthCodeServiceImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/src/main/java/io/renren/modules/agent/entity/AgentShopBusEntity.java" />
+        <option value="$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/PayUtil.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopPosController.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/src/main/java/io/renren/modules/sys/service/SysOauthCodeService.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/src/main/java/io/renren/modules/sys/mq/SysOauthCodeConsumer.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopBusController.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/AgentShopBusService.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-agent/src/main/java/io/renren/modules/agent/mq/AgentConsumer.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/src/main/java/io/renren/modules/sys/service/impl/SysOauthCodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/AgentShopService.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/AgentShopAdminService.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-agent/src/main/java/io/renren/modules/agent/request/AgentShopAdminUpdateRequest.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopController.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopAdminController.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-cu/src/main/java/io/renren/modules/cu/entity/CuAccountEntity.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-cu/src/main/java/io/renren/modules/cu/service/impl/CuInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/src/main/java/io/renren/modules/agent/entity/AgentShopEntity.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/impl/AgentShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/impl/AgentShopAdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-agent/src/main/java/io/renren/modules/agent/request/AgentShopBusPageRequest.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/src/main/java/io/renren/modules/agent/service/impl/AgentShopBusServiceImpl.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-device/src/main/java/io/renren/modules/device/controller/DeviceChargeController.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-device/src/main/java/io/renren/modules/device/entity/DeviceChargeEntity.java" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-request/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-device/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/java/io/renren/SysClientAgentApplication.java" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/java/io/renren/SysClientSimpleApplication.java" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/java/io/renren/config/CacheManager.java" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/renren-generator/src/main/resources/template/Api.js.vm" />
+        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/src/main/java/io/renren/modules/sys/controller/SysAdController.java" />
+        <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\repo" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1527" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ToolWindowRedis Servers.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-access/src/main/java/io/renren/modules/token/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-element-admin-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.renren.modules.sys.mq" />
+      <recent name="io.renren.modules.oauth.mq" />
+      <recent name="io.renren.modules.cu.mq" />
+      <recent name="io.renren.modules.app.mq" />
+      <recent name="io.renren.common.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\091001\renren-security\renren-cloud\renren-cloud-client\renren-cloud-client-order\src\main\resources" />
+      <recent name="D:\work\091001\renren-security\renren-cloud\renren-cloud-client\renren-cloud-client-device\src\main\resources" />
+      <recent name="D:\work\091001\renren-security\renren-cloud\renren-cloud-client\renren-cloud-client-agent\src\main\resources" />
+      <recent name="D:\work\091001\renren-security\renren-cloud\renren-cloud-client\renren-cloud-client-mq\src\main\java" />
+      <recent name="D:\work\091001\renren-security\renren-cloud\renren-cloud-client\renren-cloud-client-mq\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulSpringApplication">
+    <configuration name="PayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.PayUtil" />
+      <module name="renren-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="renren-docker-aliyun-eureka [clean...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+                <option value="-DskipTests" />
+                <option value="docker:build" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/renren-docker/renren-docker-aliyun/renren-docker-aliyun-eureka" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="EurekaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.cloud.eureka.EurekaSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="renren-cloud-client-agent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientAgentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientCuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientCuApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientDeviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="renren-cloud-client-device" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientDeviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="renren-cloud-client-mq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientMQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientOauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientOauthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientSimpleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-simple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientSimpleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientTokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-cloud-client-token" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientTokenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="renren-cloud-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.cloud.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.cloud.zuul.ZuulSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PayUtil" />
+      <item itemvalue="Maven.renren-docker-aliyun-eureka [clean...]" />
+      <item itemvalue="Spring Boot.EurekaSpringApplication" />
+      <item itemvalue="Spring Boot.GeneratorApplication" />
+      <item itemvalue="Spring Boot.SysClientAppApplication" />
+      <item itemvalue="Spring Boot.SysClientCuApplication" />
+      <item itemvalue="Spring Boot.SysClientOauthApplication" />
+      <item itemvalue="Spring Boot.SysClientShopApplication" />
+      <item itemvalue="Spring Boot.SysClientSysApplication" />
+      <item itemvalue="Spring Boot.SysClientTokenApplication" />
+      <item itemvalue="Spring Boot.SysClientOrderApplication" />
+      <item itemvalue="Spring Boot.SysClientSimpleApplication" />
+      <item itemvalue="Spring Boot.ZuulSpringApplication" />
+      <item itemvalue="Spring Boot.SysClientMQApplication" />
+      <item itemvalue="Spring Boot.SysClientAgentApplication" />
+      <item itemvalue="Spring Boot.SysClientDeviceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulSpringApplication" />
+        <item itemvalue="Spring Boot.SysClientAgentApplication" />
+        <item itemvalue="Spring Boot.SysClientDeviceApplication" />
+        <item itemvalue="Spring Boot.SysClientMQApplication" />
+        <item itemvalue="Application.PayUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c06cee-c800-43a3-a4ba-f9ecb5296495" name="Default Changelist" comment="" />
+      <created>1567127450659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567127450659</updated>
+      <workItem from="1567127453619" duration="19190000" />
+      <workItem from="1567387533705" duration="13567000" />
+      <workItem from="1567556968537" duration="4677000" />
+      <workItem from="1567645574051" duration="21271000" />
+      <workItem from="1567732441057" duration="23769000" />
+      <workItem from="1567760361314" duration="3560000" />
+      <workItem from="1567990263281" duration="16642000" />
+      <workItem from="1568019485233" duration="1980000" />
+      <workItem from="1568023006195" duration="408000" />
+      <workItem from="1568078232031" duration="2466000" />
+      <workItem from="1568086265481" duration="1660000" />
+      <workItem from="1568098841598" duration="211000" />
+      <workItem from="1568099195550" duration="2978000" />
+      <workItem from="1568102653289" duration="7074000" />
+      <workItem from="1568162500527" duration="613000" />
+      <workItem from="1568255816847" duration="11572000" />
+      <workItem from="1568595057938" duration="1158000" />
+      <workItem from="1568603835544" duration="2074000" />
+      <workItem from="1568617430032" duration="2765000" />
+      <workItem from="1568855029018" duration="2265000" />
+      <workItem from="1568885350736" duration="319000" />
+      <workItem from="1568955566653" duration="10687000" />
+      <workItem from="1569200585726" duration="42000" />
+      <workItem from="1569201885231" duration="173000" />
+      <workItem from="1569204872097" duration="1801000" />
+      <workItem from="1569207122860" duration="1708000" />
+      <workItem from="1569209646021" duration="122000" />
+      <workItem from="1569213151258" duration="686000" />
+      <workItem from="1569227808335" duration="1597000" />
+      <workItem from="1569383304457" duration="4377000" />
+      <workItem from="1569549830466" duration="4952000" />
+      <workItem from="1569574474749" duration="1293000" />
+      <workItem from="1569719209365" duration="14328000" />
+      <workItem from="1569749540764" duration="76000" />
+      <workItem from="1569749742505" duration="972000" />
+      <workItem from="1569805666464" duration="18296000" />
+      <workItem from="1569833933065" duration="284000" />
+      <workItem from="1570496278892" duration="5275000" />
+      <workItem from="1570603618784" duration="4497000" />
+      <workItem from="1570841366985" duration="860000" />
+      <workItem from="1570842952827" duration="14019000" />
+      <workItem from="1570868888533" duration="1112000" />
+      <workItem from="1570870129314" duration="252000" />
+      <workItem from="1570871247070" duration="2312000" />
+      <workItem from="1571014745395" duration="1233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="231173000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1527" height="916" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24267212" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.34099618" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="1" weight="0.32950193" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.25287357" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5003408" side_tool="true" weight="0.3128991" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.55427843" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.32950193" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.201788" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.31673053" />
+      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49965918" weight="0.34993616" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" weight="0.32950193" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="RestServices" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32992503" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.16291752" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" x="953" y="142" width="485" height="506" id="Redis Servers" order="11" weight="0.3294837" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>authzCodeAnnotation</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>message.get(&quot;args&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>message.get(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>parm</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getUserId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-request/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-bus/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="45" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-sys/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/src/main/java/io/renren/modules/sys/mq/SysOauthCodeConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-device/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/java/io/renren/config/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="119" column="77" selection-start-line="119" selection-start-column="77" selection-end-line="119" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/static/libs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="716" column="14" selection-start-line="716" selection-start-column="14" selection-end-line="716" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/template/Api.js.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-simple/src/main/java/io/renren/SysClientSimpleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-simple/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="160" column="56" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/src/main/java/io/renren/modules/sys/controller/SysAdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPreZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/config/FilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPostZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>renren-modules-web-shop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

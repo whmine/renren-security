@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.SysRoleAuthoritiesDao">
+
+
+    <resultMap type="io.renren.modules.sys.entity.SysAuthoritiesEntity" id="sysAuthoritiesMap">
+        <result property="id" column="ID"/>
+        <result property="name" column="NAME"/>
+        <result property="cnName" column="CN_NAME"/>
+        <result property="authorities" column="AUTHORITIES"/>
+        <result property="isSys" column="IS_SYS"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.SysRoleAuthoritiesEntity" id="sysRoleAuthoritiesMap">
+        <result property="id" column="ID"/>
+        <result property="sysAuthoritiesId" column="SYS_AUTHORITIES_ID"/>
+        <result property="sysRoleId" column="SYS_ROLE_ID"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+    <select id="rightList" resultMap="sysAuthoritiesMap">
+        SELECT
+          s.*
+        FROM
+          `sys_authorities` s
+        WHERE s.`STATUS` = 'A'
+          AND s.`ID` NOT IN
+          (SELECT
+            t.`ID`
+          FROM
+            `sys_authorities` t,
+            `sys_role_authorities` r
+          WHERE t.`ID` = r.`SYS_AUTHORITIES_ID`
+            AND t.`STATUS` = 'A'
+            AND r.`STATUS` = 'A'
+            AND r.`SYS_ROLE_ID` = #{sysRoleId})
+    </select>
+
+    <select id="leftList" resultMap="sysAuthoritiesMap">
+        SELECT
+            t.*
+          FROM
+            `sys_authorities` t,
+            `sys_role_authorities` r
+          WHERE t.`ID` = r.`SYS_AUTHORITIES_ID`
+            AND t.`STATUS` = 'A'
+            AND r.`STATUS` = 'A'
+            AND r.`SYS_ROLE_ID` = #{sysRoleId}
+
+    </select>
+
+
+</mapper>

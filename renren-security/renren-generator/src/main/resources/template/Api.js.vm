@@ -1,0 +1,50 @@
+import request from '@/utils/request'
+var path${pathName} = '/api-${moduleName}'
+## var path${pathName} = '/api-simple'
+export function findByList${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/list',
+        method: 'post',
+        data
+    })
+}
+
+export function findById${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/info',
+        method: 'post',
+        data
+    })
+}
+export function create${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/save',
+        method: 'post',
+        data
+    })
+}
+
+export function update${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/update',
+        method: 'post',
+        data
+    })
+}
+
+export function del${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/delete',
+        method: 'post',
+        data
+    })
+}
+
+export function push${className}(data) {
+    return request({
+        url: path${pathName}+ '/${moduleName}/${pathName}/push',
+        method: 'post',
+        data
+    })
+}
+

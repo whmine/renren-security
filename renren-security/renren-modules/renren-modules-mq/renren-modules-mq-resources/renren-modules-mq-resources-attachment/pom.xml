@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-modules-mq-resources</artifactId>
+        <groupId>io.renren.modules.mq.resources</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.modules.mq.resources.attachment</groupId>
+    <artifactId>renren-modules-mq-resources-attachment</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.renren.modules.service.resources.attachment</groupId>
+            <artifactId>renren-modules-service-resources-attachment</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

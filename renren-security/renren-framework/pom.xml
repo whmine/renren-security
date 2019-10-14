@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-security</artifactId>
+        <groupId>io.renren</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.framework</groupId>
+    <artifactId>renren-framework</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>renren-framework-aspect</module>
+        <module>renren-framework-annotation</module>
+        <module>renren-framework-exception</module>
+        <module>renren-framework-utils</module>
+    </modules>
+</project>

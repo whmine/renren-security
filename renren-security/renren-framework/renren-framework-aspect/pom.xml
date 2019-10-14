@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-framework</artifactId>
+        <groupId>io.renren.framework</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.framework.aspect</groupId>
+    <artifactId>renren-framework-aspect</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.renren.common</groupId>
+            <artifactId>renren-common</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.renren.framework.annotation</groupId>
+            <artifactId>renren-framework-annotation</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.renren.framework.utils</groupId>
+            <artifactId>renren-framework-utils</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.renren.modules.request.base</groupId>
+            <artifactId>renren-modules-request-base</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,20 @@
+{
+    path: '${className}Create',
+    component: () ${symbols} import('@/views/${system}/${moduleName}/${pathName}/${className}Create'),
+    name: 'Create${className}',
+    hidden: true,
+    meta: { title: '${comments}创建', icon: 'edit' ,authzCode: ['${moduleName}:${pathName}:save']}
+},
+{
+    path: '${className}Edit/:id',
+    component: () ${symbols} import('@/views/${system}/${moduleName}/${pathName}/${className}Edit'),
+    name: 'Edit${className}',
+    meta: { title: '${comments}编辑', noCache: true, activeMenu: '/${className}/${className}List',authzCode: ['${moduleName}:${pathName}:update'] },
+    hidden: true
+},
+{
+    path: '${className}List',
+    component: () ${symbols} import('@/views/${system}/${moduleName}/${pathName}/${className}List'),
+    name: '${className}List',
+    meta: { title: '${comments}管理', icon: 'list' ,authzCode: ['${moduleName}:${pathName}:list']}
+}

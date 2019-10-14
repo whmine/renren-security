@@ -1,0 +1,139 @@
+2019-10-09 15:50:16.918  INFO 18568 --- [main] io.renren.SysClientAgentApplication      : The following profiles are active: dev
+2019-10-09 15:50:21.303  INFO 18568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-09 15:50:21.304  INFO 18568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-09 15:50:21.313  INFO 18568 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zongsuo\AppData\Roaming\npm;C:\Users\zongsuo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zongsuo\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-09 15:50:21.548  INFO 18568 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-09 15:50:22.877  INFO 18568 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-10-09 15:50:24.289  INFO 18568 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-09 15:50:27.137  INFO 18568 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-09 15:50:27.323  WARN 18568 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-09 15:50:27.323  INFO 18568 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-09 15:50:27.330  WARN 18568 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-09 15:50:27.331  INFO 18568 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-09 15:50:28.974  WARN 18568 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-09 15:50:33.081  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-09 15:50:33.676  INFO 18568 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-10-09 15:50:33.677  INFO 18568 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-10-09 15:50:34.291  INFO 18568 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-10-09 15:50:34.292  INFO 18568 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-10-09 15:50:34.872  INFO 18568 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-10-09 15:50:35.219  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-10-09 15:50:35.523  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-10-09 15:50:35.527  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-10-09 15:50:35.530  INFO 18568 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-09 15:50:35.539  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1570607435537 with initial instances count: 3
+2019-10-09 15:50:35.549  INFO 18568 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570607435549, current=UP, previous=STARTING]
+2019-10-09 15:50:35.551  INFO 18568 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-AGENT/localhost:renren-client-agent:9500: registering service...
+2019-10-09 15:50:35.555  INFO 18568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-09 15:50:35.588  INFO 18568 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-09 15:50:35.613  INFO 18568 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-AGENT/localhost:renren-client-agent:9500 - registration status: 204
+2019-10-09 15:50:35.661  INFO 18568 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-09 15:50:35.794  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.855  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.863  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.870  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.879  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.886  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.902  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.904  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2019-10-09 15:50:35.911  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.912  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_1
+2019-10-09 15:50:35.915  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.917  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_1
+2019-10-09 15:50:35.920  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.922  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_1
+2019-10-09 15:50:35.928  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.929  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-09 15:50:35.936  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.938  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2019-10-09 15:50:35.942  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.944  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2019-10-09 15:50:35.946  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.947  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_2
+2019-10-09 15:50:35.950  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.951  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_2
+2019-10-09 15:50:35.953  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.955  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_2
+2019-10-09 15:50:35.961  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.962  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-09 15:50:35.968  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.969  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2019-10-09 15:50:35.972  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.974  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_3
+2019-10-09 15:50:35.977  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.979  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_3
+2019-10-09 15:50:35.983  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.984  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_3
+2019-10-09 15:50:35.988  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:35.991  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_3
+2019-10-09 15:50:35.999  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:36.001  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2019-10-09 15:50:36.011  INFO 18568 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-09 15:50:36.012  INFO 18568 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2019-10-09 15:50:36.224  INFO 18568 --- [main] io.renren.SysClientAgentApplication      : Started SysClientAgentApplication in 26.251 seconds (JVM running for 29.866)
+2019-10-09 15:50:36.227 DEBUG 18568 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动!
+2019-10-09 15:50:36.227 DEBUG 18568 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动完成!
+2019-10-09 15:51:30.475  INFO 18568 --- [http-nio-9500-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-09 15:51:30.732 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570607490732
+2019-10-09 15:51:30.863  INFO 18568 --- [http-nio-9500-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-10-09 15:51:30.865  INFO 18568 --- [http-nio-9500-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-10-09 15:51:31.826 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-09 15:51:31.847 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1d0c61d2f18548f99960d6b6355fcdf4(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.agent.controller.AgentShopController.list","authzCode":"agent:agentshop:list","icon":"skill","mqid":"1d0c61d2f18548f99960d6b6355fcdf4","authoritiesName":"agent_shop","isShow":"N","roleCnName":"","cnName":"代理商-列表","roleName":"agent","name":"agent_agentshop_list","perms":"","describe":"代理商-列表","state":"START","authoritiesCnName":"代理商权限","startUpType":"AUTO"}(String), system(String)
+2019-10-09 15:51:31.859 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-09 15:51:32.095 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570607492095
+2019-10-09 15:51:32.097 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570607492097
+2019-10-09 15:51:32.097 DEBUG 18568 --- [http-nio-9500-exec-2] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570607492097
+2019-10-09 15:51:32.203 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.agent.dao.AgentShopDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM agent_shop WHERE status = 'A' 
+2019-10-09 15:51:32.203 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.agent.dao.AgentShopDao.selectPage  : ==> Parameters: 
+2019-10-09 15:51:32.227 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.agent.dao.AgentShopDao.selectPage  : ==>  Preparing: SELECT ID,shop_sn,shop_name,shop_phone,shop_type,shop_parent,shop_ratio,shop_open,customer_id,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM agent_shop WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-09 15:51:32.228 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.agent.dao.AgentShopDao.selectPage  : ==> Parameters: 0(Long), 10(Long)
+2019-10-09 15:51:32.235 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.agent.dao.AgentShopDao.selectPage  : <==      Total: 1
+2019-10-09 15:51:32.236 DEBUG 18568 --- [http-nio-9500-exec-2] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570607492236
+2019-10-09 15:51:32.238 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-09 15:51:32.239 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1969b4541bff4fc5a63d935cca202068(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.agent.controller.AgentShopController.list","ip":"127.0.0.1","mqid":"1969b4541bff4fc5a63d935cca202068","operation":"代理商-列表"}(String), system(String)
+2019-10-09 15:51:32.248 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-09 15:51:32.275 DEBUG 18568 --- [http-nio-9500-exec-2] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-09 15:51:32.276 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570607492276
+2019-10-09 15:51:32.276 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570607492276
+2019-10-09 15:51:32.276 DEBUG 18568 --- [http-nio-9500-exec-2] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570607492276
+2019-10-09 15:51:35.116 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570607495116
+2019-10-09 15:51:35.119 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-09 15:51:35.120 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: d2b0202fbfd1495bb1513db70824801d(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.agent.controller.AgentShopPosController.list","authzCode":"agent:agentshoppos:list","icon":"skill","mqid":"d2b0202fbfd1495bb1513db70824801d","authoritiesName":"agent_shop_pos","isShow":"N","roleCnName":"","cnName":"代理商商户-列表","roleName":"agent","name":"agent_agentshoppos_list","perms":"","describe":"代理商商户-列表","state":"START","authoritiesCnName":"代理商商户权限","startUpType":"AUTO"}(String), system(String)
+2019-10-09 15:51:35.131 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-09 15:51:35.200 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570607495200
+2019-10-09 15:51:35.202 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570607495202
+2019-10-09 15:51:35.202 DEBUG 18568 --- [http-nio-9500-exec-1] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570607495202
+2019-10-09 15:51:35.219 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.a.dao.AgentShopPosDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM agent_shop_pos WHERE status = 'A' 
+2019-10-09 15:51:35.219 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.a.dao.AgentShopPosDao.selectPage   : ==> Parameters: 
+2019-10-09 15:51:35.229 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.a.dao.AgentShopPosDao.selectPage   : ==>  Preparing: SELECT ID,pos_sn,pos_name,pos_admin,pos_bus,pos_bus_ratio,pos_ratio,pos_logo,pos_img,province,city,district,address,warp,weft,charging_type,charging_company,charging_standard,free_time,consume,cipher_line,shop_phone,start_time,end_time,money,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM agent_shop_pos WHERE status='A' ORDER BY SORT DESC 
+2019-10-09 15:51:35.229 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.a.dao.AgentShopPosDao.selectPage   : ==> Parameters: 
+2019-10-09 15:51:35.230 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.a.dao.AgentShopPosDao.selectPage   : <==      Total: 0
+2019-10-09 15:51:35.231 DEBUG 18568 --- [http-nio-9500-exec-1] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570607495231
+2019-10-09 15:51:35.232 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-09 15:51:35.233 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: c8dcdd68076b4301a6ebebeca6947eaf(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.agent.controller.AgentShopPosController.list","ip":"127.0.0.1","mqid":"c8dcdd68076b4301a6ebebeca6947eaf","operation":"代理商商户-列表"}(String), system(String)
+2019-10-09 15:51:35.242 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-09 15:51:35.309 DEBUG 18568 --- [http-nio-9500-exec-1] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-09 15:51:35.309 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570607495309
+2019-10-09 15:51:35.309 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570607495309
+2019-10-09 15:51:35.309 DEBUG 18568 --- [http-nio-9500-exec-1] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570607495309
+2019-10-09 15:55:35.225  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:00:35.239  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:05:35.240  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:10:35.252  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:15:35.253  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:20:35.256  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:25:35.257  INFO 18568 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-09 16:29:57.712  WARN 18568 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570609797712, current=DOWN, previous=UP]
+2019-10-09 16:29:57.715  INFO 18568 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-AGENT/localhost:renren-client-agent:9500: registering service...
+2019-10-09 16:29:57.762  INFO 18568 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-AGENT/localhost:renren-client-agent:9500 - registration status: 204
+2019-10-09 16:29:58.093  INFO 18568 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-10-09 16:29:58.097  INFO 18568 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-10-09 16:29:58.162  INFO 18568 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-AGENT/localhost:renren-client-agent:9500 - deregister  status: 200
+2019-10-09 16:29:58.223  INFO 18568 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-10-09 16:29:58.335  INFO 18568 --- [Thread-48] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

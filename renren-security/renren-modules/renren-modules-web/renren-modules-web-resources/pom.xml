@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-modules-web</artifactId>
+        <groupId>io.renren.modules.web</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.modules.web.resources</groupId>
+    <artifactId>renren-modules-web-resources</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>renren-modules-web-resources-attachment</module>
+        <module>renren-modules-web-resources-other</module>
+    </modules>
+
+
+</project>

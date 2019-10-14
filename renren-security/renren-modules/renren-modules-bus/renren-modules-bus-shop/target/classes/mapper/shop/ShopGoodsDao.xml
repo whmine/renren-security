@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.shop.dao.ShopGoodsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.shop.entity.ShopGoodsEntity" id="shopGoodsMap">
+        <result property="id" column="ID"/>
+        <result property="catId" column="CAT_ID"/>
+        <result property="goodsSn" column="GOODS_SN"/>
+        <result property="goodsName" column="GOODS_NAME"/>
+        <result property="clickCount" column="CLICK_COUNT"/>
+        <result property="shopPrice" column="SHOP_PRICE"/>
+        <result property="goodsContent" column="GOODS_CONTENT"/>
+        <result property="originalImg" column="ORIGINAL_IMG"/>
+        <result property="originalVideo" column="ORIGINAL_VIDEO"/>
+        <result property="isCharge" column="IS_CHARGE"/>
+        <result property="isOnSale" column="IS_ON_SALE"/>
+        <result property="onTime" column="ON_TIME"/>
+        <result property="salesSum" column="SALES_SUM"/>
+        <result property="collectNum" column="COLLECT_NUM"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+
+
+</mapper>

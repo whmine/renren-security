@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.SysUserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.SysUserEntity" id="sysUserMap">
+        <result property="id" column="ID"/>
+        <result property="name" column="NAME"/>
+        <result property="cnName" column="CN_NAME"/>
+        <result property="sysPasswd" column="SYS_PASSWD"/>
+        <result property="isSys" column="IS_SYS"/>
+        <result property="isOver" column="IS_OVER"/>
+        <result property="overTime" column="OVER_TIME"/>
+        <result property="isAct" column="IS_ACT"/>
+        <result property="actTime" column="ACT_TIME"/>
+        <result property="isLocked" column="IS_LOCKED"/>
+        <result property="lockedTime2" column="LOCKED_TIME2"/>
+        <result property="isExpired" column="IS_EXPIRED"/>
+        <result property="expiredTime" column="EXPIRED_TIME"/>
+        <result property="staffId" column="STAFF_ID"/>
+        <result property="areaId" column="AREA_ID"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+
+
+</mapper>

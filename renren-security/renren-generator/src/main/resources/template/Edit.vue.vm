@@ -1,0 +1,13 @@
+<template>
+    <${tableLabel}-detail :is-edit="true" />
+</template>
+
+<script>
+    import ${className}Detail from './components/${className}Detail'
+
+    export default {
+        name: 'EditForm',
+        components: { ${className}Detail }
+    }
+</script>
+

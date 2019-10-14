@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.SysSmsCodeDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.sys.entity.SysSmsCodeEntity" id="sysSmsCodeMap">
+        <result property="id" column="ID"/>
+        <result property="codeType" column="CODE_TYPE"/>
+        <result property="codeMobile" column="CODE_MOBILE"/>
+        <result property="codeCode" column="CODE_CODE"/>
+        <result property="codeState" column="CODE_STATE"/>
+        <result property="codeText" column="CODE_TEXT"/>
+        <result property="codeCreateTime" column="CODE_CREATE_TIME"/>
+        <result property="codeExpirationTime" column="CODE_EXPIRATION_TIME"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+
+
+</mapper>

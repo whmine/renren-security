@@ -1,0 +1,18 @@
+package io.renren.modules.sys.dao;
+
+import io.renren.modules.sys.entity.SysServiceDependencyEntity;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 系统服务依赖
+ *
+ * @author Shark
+ * @email shark@126.com
+ * @date 2019-07-20 10:12:45
+ */
+
+@Mapper
+public interface SysServiceDependencyDao extends BaseMapper<SysServiceDependencyEntity> {
+
+}

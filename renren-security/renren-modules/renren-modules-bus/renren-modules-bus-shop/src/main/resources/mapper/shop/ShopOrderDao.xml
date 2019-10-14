@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.shop.dao.ShopOrderDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.shop.entity.ShopOrderEntity" id="shopOrderMap">
+        <result property="id" column="ID"/>
+        <result property="sysUserId" column="SYS_USER_ID"/>
+        <result property="goodsId" column="GOODS_ID"/>
+        <result property="orderSn" column="ORDER_SN"/>
+        <result property="orderAmount" column="ORDER_AMOUNT"/>
+        <result property="orderStatus" column="ORDER_STATUS"/>
+        <result property="payStatus" column="PAY_STATUS"/>
+        <result property="payCode" column="PAY_CODE"/>
+        <result property="addTime" column="ADD_TIME"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+    <resultMap type="io.renren.modules.shop.entity.ShopGoodsEntity" id="shopGoodsMap">
+        <result property="id" column="ID"/>
+        <result property="catId" column="CAT_ID"/>
+        <result property="goodsSn" column="GOODS_SN"/>
+        <result property="goodsName" column="GOODS_NAME"/>
+        <result property="clickCount" column="CLICK_COUNT"/>
+        <result property="shopPrice" column="SHOP_PRICE"/>
+        <result property="goodsContent" column="GOODS_CONTENT"/>
+        <result property="originalImg" column="ORIGINAL_IMG"/>
+        <result property="originalVideo" column="ORIGINAL_VIDEO"/>
+        <result property="isCharge" column="IS_CHARGE"/>
+        <result property="isOnSale" column="IS_ON_SALE"/>
+        <result property="onTime" column="ON_TIME"/>
+        <result property="salesSum" column="SALES_SUM"/>
+        <result property="collectNum" column="COLLECT_NUM"/>
+        <result property="sysSystem" column="SYS_SYSTEM"/>
+        <result property="sort" column="SORT"/>
+        <result property="status" column="STATUS"/>
+        <result property="remarks" column="REMARKS"/>
+        <result property="createdTime" column="CREATED_TIME"/>
+        <result property="createdUserId" column="CREATED_USER_ID"/>
+        <result property="modifyTime" column="MODIFY_TIME"/>
+        <result property="modifyUserId" column="MODIFY_USER_ID"/>
+        <result property="version" column="VERSION"/>
+    </resultMap>
+    <select id="myList" resultMap="shopGoodsMap">
+        SELECT
+        t.*
+        FROM
+        `shop_goods` t,
+        `shop_order` o
+        WHERE t.`ID` = o.`GOODS_ID`
+        AND t.`STATUS` = 'A'
+        AND o.`STATUS` = 'A'
+        AND o.`SYS_USER_ID`=#{sysUserId}
+        <if test="type!=null">AND t.`CAT_ID`=#{type}</if>
+
+    </select>
+
+
+</mapper>

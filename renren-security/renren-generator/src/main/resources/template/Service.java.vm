@@ -1,0 +1,27 @@
+package ${package}.${moduleName}.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import ${mainPath}.common.utils.PageUtils;
+import ${package}.${moduleName}.entity.${className}Entity;
+import ${package}.${moduleName}.request.${className}PageRequest;
+import ${package}.${moduleName}.request.${className}PushRequest;
+import java.util.*;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+public interface ${className}Service extends IService<${className}Entity> {
+
+    Map queryPage(${className}PageRequest request);
+
+    /***
+     * ${comments}-发布redis
+     * @param request
+     */
+    void push(${className}PushRequest request);
+}
+

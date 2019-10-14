@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-modules</artifactId>
+        <groupId>io.renren.modules</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.modules.service</groupId>
+    <artifactId>renren-modules-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>renren-modules-service-app</module>
+        <module>renren-modules-service-sys</module>
+        <module>renren-modules-service-cu</module>
+        <module>renren-modules-service-log</module>
+        <module>renren-modules-service-oauth</module>
+        <module>renren-modules-service-resources</module>
+        <module>renren-modules-service-service</module>
+        <module>renren-modules-service-token</module>
+        <module>renren-modules-service-order</module>
+        <module>renren-modules-service-agent</module>
+        <module>renren-modules-service-device</module>
+        <module>renren-modules-service-shop</module>
+    </modules>
+
+</project>

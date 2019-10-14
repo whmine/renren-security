@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-modules-web-token</artifactId>
+        <groupId>io.renren.modules.web.token</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.modules.web.token.access</groupId>
+    <artifactId>renren-modules-web-token-access</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.renren.modules.service.token.access</groupId>
+            <artifactId>renren-modules-service-token-access</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.renren.framework.aspect</groupId>
+            <artifactId>renren-framework-aspect</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>

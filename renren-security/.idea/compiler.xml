@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="renren-modules-service-token-access" />
+        <module name="renren-modules-mq-oauth" />
+        <module name="renren-modules-mq-sys" />
+        <module name="renren-cloud-eureka" />
+        <module name="renren-modules-service-resources-other" />
+        <module name="renren-dependency-api" />
+        <module name="renren-cloud-client-app" />
+        <module name="renren-modules-service-service" />
+        <module name="renren-cloud-client-device" />
+        <module name="renren-docker-aliyun-eureka" />
+        <module name="renren-modules-web-resources-other" />
+        <module name="renren-modules-service-token-info" />
+        <module name="renren-modules-request-token" />
+        <module name="renren-modules-bus-resources-attachment" />
+        <module name="renren-modules-request-device" />
+        <module name="renren-modules-service-order" />
+        <module name="renren-modules-web-service" />
+        <module name="renren-modules-mq-cu" />
+        <module name="renren-modules-bus-shop" />
+        <module name="renren-modules-web-log" />
+        <module name="renren-modules-web-token-weixin" />
+        <module name="renren-modules-request-base" />
+        <module name="renren-modules-mq-shop" />
+        <module name="renren-modules-mq-log" />
+        <module name="renren-modules-service-token-weixin" />
+        <module name="renren-cloud-simple" />
+        <module name="renren-modules-bus-order" />
+        <module name="renren-modules-service-app" />
+        <module name="renren-modules-bus-oauth" />
+        <module name="renren-modules-web-sys" />
+        <module name="renren-framework-aspect" />
+        <module name="renren-dependency-pay" />
+        <module name="renren-cloud-client-shop" />
+        <module name="renren-common" />
+        <module name="renren-modules-web-agent" />
+        <module name="renren-modules-mq-token" />
+        <module name="renren-modules-service-resources-attachment" />
+        <module name="renren-modules-service-sys" />
+        <module name="renren-framework-annotation" />
+        <module name="renren-modules-service-token-logOut" />
+        <module name="renren-modules-web-token-logOut" />
+        <module name="renren-modules-web-resources-attachment" />
+        <module name="renren-framework-exception" />
+        <module name="renren-modules-request-resources-attachment" />
+        <module name="renren-modules-bus-resources-other" />
+        <module name="renren-modules-bus-app" />
+        <module name="renren-modules-request-app" />
+        <module name="renren-cloud-client-customer" />
+        <module name="renren-dependency-auth" />
+        <module name="renren-modules-service-cu" />
+        <module name="renren-modules-request-agent" />
+        <module name="renren-modules-service-oauth" />
+        <module name="renren-modules-request-shop" />
+        <module name="renren-framework-utils" />
+        <module name="renren-modules-web-token-access" />
+        <module name="renren-modules-service-token-sys" />
+        <module name="renren-modules-mq-agent" />
+        <module name="renren-modules-request-resources-other" />
+        <module name="renren-modules-mq-service" />
+        <module name="renren-modules-bus-sys" />
+        <module name="renren-modules-request-sys" />
+        <module name="renren-cloud-client-oauth" />
+        <module name="renren-cloud-client-token" />
+        <module name="renren-modules-service-log" />
+        <module name="renren-modules-service-shop" />
+        <module name="renren-modules-bus-cu" />
+        <module name="renren-modules-request-log" />
+        <module name="renren-modules-request-cu" />
+        <module name="renren-modules-request-service" />
+        <module name="renren-cloud-client-agent" />
+        <module name="renren-modules-web-device" />
+        <module name="renren-modules-web-order" />
+        <module name="renren-modules-web-app" />
+        <module name="renren-cloud-client-mq" />
+        <module name="renren-modules-web-oauth" />
+        <module name="renren-modules-web-shop" />
+        <module name="renren-cloud-client-sys" />
+        <module name="renren-modules-mq-resources-other" />
+        <module name="renren-modules-bus-mq" />
+        <module name="renren-modules-web-token-sys" />
+        <module name="renren-modules-mq-device" />
+        <module name="renren-modules-mq-resources-attachment" />
+        <module name="renren-modules-mq-app" />
+        <module name="renren-modules-web-cu" />
+        <module name="renren-cloud-zuul" />
+        <module name="renren-modules-bus-log" />
+        <module name="renren-modules-bus-device" />
+        <module name="renren-modules-service-agent" />
+        <module name="renren-modules-bus-agent" />
+        <module name="renren-modules-request-order" />
+        <module name="renren-modules-request-oauth" />
+        <module name="renren-modules-web-token-info" />
+        <module name="renren-modules-service-device" />
+        <module name="renren-modules-bus-service" />
+        <module name="renren-generator" />
+        <module name="renren-cloud-client-order" />
+        <module name="renren-modules-mq-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="renren-cloud" target="1.8" />
+      <module name="renren-cloud-client" target="1.8" />
+      <module name="renren-cloud-client-agent" target="1.8" />
+      <module name="renren-cloud-client-app" target="1.8" />
+      <module name="renren-cloud-client-customer" target="1.8" />
+      <module name="renren-cloud-client-device" target="1.8" />
+      <module name="renren-cloud-client-mq" target="1.8" />
+      <module name="renren-cloud-client-oauth" target="1.8" />
+      <module name="renren-cloud-client-order" target="1.8" />
+      <module name="renren-cloud-client-shop" target="1.8" />
+      <module name="renren-cloud-client-sys" target="1.8" />
+      <module name="renren-cloud-client-token" target="1.8" />
+      <module name="renren-cloud-eureka" target="1.8" />
+      <module name="renren-cloud-simple" target="1.8" />
+      <module name="renren-cloud-zuul" target="1.8" />
+      <module name="renren-common" target="1.8" />
+      <module name="renren-dependency" target="1.8" />
+      <module name="renren-dependency-api" target="1.8" />
+      <module name="renren-dependency-auth" target="1.8" />
+      <module name="renren-dependency-pay" target="1.8" />
+      <module name="renren-docker" target="1.8" />
+      <module name="renren-docker-aliyun" target="1.8" />
+      <module name="renren-docker-aliyun-eureka" target="1.8" />
+      <module name="renren-docker-localhost" target="1.8" />
+      <module name="renren-framework" target="1.8" />
+      <module name="renren-framework-annotation" target="1.8" />
+      <module name="renren-framework-aspect" target="1.8" />
+      <module name="renren-framework-exception" target="1.8" />
+      <module name="renren-framework-utils" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="renren-modules" target="1.8" />
+      <module name="renren-modules-bus" target="1.8" />
+      <module name="renren-modules-bus-agent" target="1.8" />
+      <module name="renren-modules-bus-app" target="1.8" />
+      <module name="renren-modules-bus-cu" target="1.8" />
+      <module name="renren-modules-bus-device" target="1.8" />
+      <module name="renren-modules-bus-log" target="1.8" />
+      <module name="renren-modules-bus-mq" target="1.8" />
+      <module name="renren-modules-bus-oauth" target="1.8" />
+      <module name="renren-modules-bus-order" target="1.8" />
+      <module name="renren-modules-bus-resources" target="1.8" />
+      <module name="renren-modules-bus-resources-attachment" target="1.8" />
+      <module name="renren-modules-bus-resources-other" target="1.8" />
+      <module name="renren-modules-bus-service" target="1.8" />
+      <module name="renren-modules-bus-shop" target="1.8" />
+      <module name="renren-modules-bus-sys" target="1.8" />
+      <module name="renren-modules-mq" target="1.8" />
+      <module name="renren-modules-mq-agent" target="1.8" />
+      <module name="renren-modules-mq-app" target="1.8" />
+      <module name="renren-modules-mq-cu" target="1.8" />
+      <module name="renren-modules-mq-device" target="1.8" />
+      <module name="renren-modules-mq-log" target="1.8" />
+      <module name="renren-modules-mq-oauth" target="1.8" />
+      <module name="renren-modules-mq-order" target="1.8" />
+      <module name="renren-modules-mq-resources" target="1.8" />
+      <module name="renren-modules-mq-resources-attachment" target="1.8" />
+      <module name="renren-modules-mq-resources-other" target="1.8" />
+      <module name="renren-modules-mq-service" target="1.8" />
+      <module name="renren-modules-mq-shop" target="1.8" />
+      <module name="renren-modules-mq-sys" target="1.8" />
+      <module name="renren-modules-mq-token" target="1.8" />
+      <module name="renren-modules-request" target="1.8" />
+      <module name="renren-modules-request-agent" target="1.8" />
+      <module name="renren-modules-request-app" target="1.8" />
+      <module name="renren-modules-request-base" target="1.8" />
+      <module name="renren-modules-request-cu" target="1.8" />
+      <module name="renren-modules-request-device" target="1.8" />
+      <module name="renren-modules-request-log" target="1.8" />
+      <module name="renren-modules-request-oauth" target="1.8" />
+      <module name="renren-modules-request-order" target="1.8" />
+      <module name="renren-modules-request-resources" target="1.8" />
+      <module name="renren-modules-request-resources-attachment" target="1.8" />
+      <module name="renren-modules-request-resources-other" target="1.8" />
+      <module name="renren-modules-request-service" target="1.8" />
+      <module name="renren-modules-request-shop" target="1.8" />
+      <module name="renren-modules-request-sys" target="1.8" />
+      <module name="renren-modules-request-token" target="1.8" />
+      <module name="renren-modules-service" target="1.8" />
+      <module name="renren-modules-service-agent" target="1.8" />
+      <module name="renren-modules-service-app" target="1.8" />
+      <module name="renren-modules-service-cu" target="1.8" />
+      <module name="renren-modules-service-device" target="1.8" />
+      <module name="renren-modules-service-log" target="1.8" />
+      <module name="renren-modules-service-oauth" target="1.8" />
+      <module name="renren-modules-service-order" target="1.8" />
+      <module name="renren-modules-service-resources" target="1.8" />
+      <module name="renren-modules-service-resources-attachment" target="1.8" />
+      <module name="renren-modules-service-resources-other" target="1.8" />
+      <module name="renren-modules-service-service" target="1.8" />
+      <module name="renren-modules-service-shop" target="1.8" />
+      <module name="renren-modules-service-sys" target="1.8" />
+      <module name="renren-modules-service-token" target="1.8" />
+      <module name="renren-modules-service-token-access" target="1.8" />
+      <module name="renren-modules-service-token-info" target="1.8" />
+      <module name="renren-modules-service-token-logOut" target="1.8" />
+      <module name="renren-modules-service-token-sys" target="1.8" />
+      <module name="renren-modules-service-token-weixin" target="1.8" />
+      <module name="renren-modules-web" target="1.8" />
+      <module name="renren-modules-web-agent" target="1.8" />
+      <module name="renren-modules-web-app" target="1.8" />
+      <module name="renren-modules-web-cu" target="1.8" />
+      <module name="renren-modules-web-device" target="1.8" />
+      <module name="renren-modules-web-log" target="1.8" />
+      <module name="renren-modules-web-oauth" target="1.8" />
+      <module name="renren-modules-web-order" target="1.8" />
+      <module name="renren-modules-web-resources" target="1.8" />
+      <module name="renren-modules-web-resources-attachment" target="1.8" />
+      <module name="renren-modules-web-resources-other" target="1.8" />
+      <module name="renren-modules-web-service" target="1.8" />
+      <module name="renren-modules-web-shop" target="1.8" />
+      <module name="renren-modules-web-sys" target="1.8" />
+      <module name="renren-modules-web-token" target="1.8" />
+      <module name="renren-modules-web-token-access" target="1.8" />
+      <module name="renren-modules-web-token-info" target="1.8" />
+      <module name="renren-modules-web-token-logOut" target="1.8" />
+      <module name="renren-modules-web-token-sys" target="1.8" />
+      <module name="renren-modules-web-token-weixin" target="1.8" />
+      <module name="renren-security" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-cloud-client-agent" options="-parameters" />
+      <module name="renren-cloud-client-app" options="-parameters" />
+      <module name="renren-cloud-client-customer" options="-parameters" />
+      <module name="renren-cloud-client-device" options="-parameters" />
+      <module name="renren-cloud-client-mq" options="-parameters" />
+      <module name="renren-cloud-client-oauth" options="-parameters" />
+      <module name="renren-cloud-client-order" options="-parameters" />
+      <module name="renren-cloud-client-shop" options="-parameters" />
+      <module name="renren-cloud-client-sys" options="-parameters" />
+      <module name="renren-cloud-client-token" options="-parameters" />
+      <module name="renren-cloud-eureka" options="-parameters" />
+      <module name="renren-cloud-simple" options="-parameters" />
+      <module name="renren-cloud-zuul" options="-parameters" />
+      <module name="renren-common" options="-parameters" />
+      <module name="renren-dependency-api" options="-parameters" />
+      <module name="renren-dependency-auth" options="-parameters" />
+      <module name="renren-dependency-pay" options="-parameters" />
+      <module name="renren-docker" options="-parameters" />
+      <module name="renren-docker-aliyun" options="-parameters" />
+      <module name="renren-docker-aliyun-eureka" options="-parameters" />
+      <module name="renren-docker-localhost" options="-parameters" />
+      <module name="renren-framework-annotation" options="-parameters" />
+      <module name="renren-framework-aspect" options="-parameters" />
+      <module name="renren-framework-exception" options="-parameters" />
+      <module name="renren-framework-utils" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="renren-modules-bus-agent" options="-parameters" />
+      <module name="renren-modules-bus-app" options="-parameters" />
+      <module name="renren-modules-bus-cu" options="-parameters" />
+      <module name="renren-modules-bus-device" options="-parameters" />
+      <module name="renren-modules-bus-log" options="-parameters" />
+      <module name="renren-modules-bus-mq" options="-parameters" />
+      <module name="renren-modules-bus-oauth" options="-parameters" />
+      <module name="renren-modules-bus-order" options="-parameters" />
+      <module name="renren-modules-bus-resources-attachment" options="-parameters" />
+      <module name="renren-modules-bus-resources-other" options="-parameters" />
+      <module name="renren-modules-bus-service" options="-parameters" />
+      <module name="renren-modules-bus-shop" options="-parameters" />
+      <module name="renren-modules-bus-sys" options="-parameters" />
+      <module name="renren-modules-mq-agent" options="-parameters" />
+      <module name="renren-modules-mq-app" options="-parameters" />
+      <module name="renren-modules-mq-cu" options="-parameters" />
+      <module name="renren-modules-mq-device" options="-parameters" />
+      <module name="renren-modules-mq-log" options="-parameters" />
+      <module name="renren-modules-mq-oauth" options="-parameters" />
+      <module name="renren-modules-mq-order" options="-parameters" />
+      <module name="renren-modules-mq-resources" options="-parameters" />
+      <module name="renren-modules-mq-resources-attachment" options="-parameters" />
+      <module name="renren-modules-mq-resources-other" options="-parameters" />
+      <module name="renren-modules-mq-service" options="-parameters" />
+      <module name="renren-modules-mq-shop" options="-parameters" />
+      <module name="renren-modules-mq-sys" options="-parameters" />
+      <module name="renren-modules-mq-token" options="-parameters" />
+      <module name="renren-modules-request-agent" options="-parameters" />
+      <module name="renren-modules-request-app" options="-parameters" />
+      <module name="renren-modules-request-base" options="-parameters" />
+      <module name="renren-modules-request-cu" options="-parameters" />
+      <module name="renren-modules-request-device" options="-parameters" />
+      <module name="renren-modules-request-log" options="-parameters" />
+      <module name="renren-modules-request-oauth" options="-parameters" />
+      <module name="renren-modules-request-order" options="-parameters" />
+      <module name="renren-modules-request-resources-attachment" options="-parameters" />
+      <module name="renren-modules-request-resources-other" options="-parameters" />
+      <module name="renren-modules-request-service" options="-parameters" />
+      <module name="renren-modules-request-shop" options="-parameters" />
+      <module name="renren-modules-request-sys" options="-parameters" />
+      <module name="renren-modules-request-token" options="-parameters" />
+      <module name="renren-modules-service-agent" options="-parameters" />
+      <module name="renren-modules-service-app" options="-parameters" />
+      <module name="renren-modules-service-cu" options="-parameters" />
+      <module name="renren-modules-service-device" options="-parameters" />
+      <module name="renren-modules-service-log" options="-parameters" />
+      <module name="renren-modules-service-oauth" options="-parameters" />
+      <module name="renren-modules-service-order" options="-parameters" />
+      <module name="renren-modules-service-resources" options="-parameters" />
+      <module name="renren-modules-service-resources-attachment" options="-parameters" />
+      <module name="renren-modules-service-resources-other" options="-parameters" />
+      <module name="renren-modules-service-service" options="-parameters" />
+      <module name="renren-modules-service-shop" options="-parameters" />
+      <module name="renren-modules-service-sys" options="-parameters" />
+      <module name="renren-modules-service-token" options="" />
+      <module name="renren-modules-service-token-access" options="-parameters" />
+      <module name="renren-modules-service-token-info" options="-parameters" />
+      <module name="renren-modules-service-token-logOut" options="-parameters" />
+      <module name="renren-modules-service-token-sys" options="-parameters" />
+      <module name="renren-modules-service-token-weixin" options="-parameters" />
+      <module name="renren-modules-web-agent" options="-parameters" />
+      <module name="renren-modules-web-app" options="-parameters" />
+      <module name="renren-modules-web-cu" options="-parameters" />
+      <module name="renren-modules-web-device" options="-parameters" />
+      <module name="renren-modules-web-log" options="-parameters" />
+      <module name="renren-modules-web-oauth" options="-parameters" />
+      <module name="renren-modules-web-order" options="-parameters" />
+      <module name="renren-modules-web-resources-attachment" options="-parameters" />
+      <module name="renren-modules-web-resources-other" options="-parameters" />
+      <module name="renren-modules-web-service" options="-parameters" />
+      <module name="renren-modules-web-shop" options="-parameters" />
+      <module name="renren-modules-web-sys" options="-parameters" />
+      <module name="renren-modules-web-token-access" options="-parameters" />
+      <module name="renren-modules-web-token-info" options="-parameters" />
+      <module name="renren-modules-web-token-logOut" options="-parameters" />
+      <module name="renren-modules-web-token-sys" options="-parameters" />
+      <module name="renren-modules-web-token-weixin" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,989 @@
+2019-10-08 14:07:03.411  INFO 20508 --- [main] io.renren.SysClientDeviceApplication     : The following profiles are active: dev
+2019-10-08 14:07:06.137  INFO 20508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-08 14:07:06.137  INFO 20508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 14:07:06.146  INFO 20508 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zongsuo\AppData\Roaming\npm;C:\Users\zongsuo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zongsuo\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-08 14:07:06.319  INFO 20508 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-08 14:07:07.283  INFO 20508 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-10-08 14:07:07.787  INFO 20508 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-08 14:07:09.840  INFO 20508 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-08 14:07:10.028  WARN 20508 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 14:07:10.028  INFO 20508 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 14:07:10.034  WARN 20508 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 14:07:10.035  INFO 20508 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 14:07:11.366  WARN 20508 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-08 14:07:13.184  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-08 14:07:13.754  INFO 20508 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-10-08 14:07:13.754  INFO 20508 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-10-08 14:07:14.279  INFO 20508 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-10-08 14:07:14.280  INFO 20508 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-10-08 14:07:14.659  INFO 20508 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:07:14.955  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-10-08 14:07:14.955  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-10-08 14:07:14.955  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-10-08 14:07:14.955  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-10-08 14:07:14.955  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-10-08 14:07:14.956  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-10-08 14:07:14.956  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-10-08 14:07:15.256  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-10-08 14:07:15.261  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-10-08 14:07:15.265  INFO 20508 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-08 14:07:15.271  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1570514835270 with initial instances count: 3
+2019-10-08 14:07:15.285  INFO 20508 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570514835285, current=UP, previous=STARTING]
+2019-10-08 14:07:15.287  INFO 20508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 14:07:15.291  INFO 20508 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-08 14:07:15.320  INFO 20508 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-08 14:07:15.337  INFO 20508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 14:07:15.379  INFO 20508 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-08 14:07:15.661  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.670  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.683  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.691  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.701  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.711  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.723  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.725  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2019-10-08 14:07:15.728  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.729  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_1
+2019-10-08 14:07:15.733  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.735  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_1
+2019-10-08 14:07:15.738  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.742  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_1
+2019-10-08 14:07:15.746  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.749  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-08 14:07:15.758  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.760  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2019-10-08 14:07:15.763  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.766  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2019-10-08 14:07:15.768  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.769  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_2
+2019-10-08 14:07:15.772  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.777  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_2
+2019-10-08 14:07:15.779  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.782  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_2
+2019-10-08 14:07:15.784  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.785  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-08 14:07:15.788  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.789  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2019-10-08 14:07:15.792  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.793  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_3
+2019-10-08 14:07:15.795  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.796  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_3
+2019-10-08 14:07:15.799  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.800  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_3
+2019-10-08 14:07:15.802  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.803  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_3
+2019-10-08 14:07:15.805  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.806  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2019-10-08 14:07:15.812  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.815  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2019-10-08 14:07:15.819  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.820  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_4
+2019-10-08 14:07:15.823  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.824  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_4
+2019-10-08 14:07:15.826  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.827  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_4
+2019-10-08 14:07:15.831  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.832  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_4
+2019-10-08 14:07:15.835  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.837  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_4
+2019-10-08 14:07:15.843  INFO 20508 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 14:07:15.845  INFO 20508 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_4
+2019-10-08 14:07:15.990  INFO 20508 --- [main] io.renren.SysClientDeviceApplication     : Started SysClientDeviceApplication in 16.335 seconds (JVM running for 21.794)
+2019-10-08 14:07:15.993 DEBUG 20508 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动!
+2019-10-08 14:07:15.993 DEBUG 20508 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动完成!
+2019-10-08 14:12:14.225  INFO 20508 --- [http-nio-9600-exec-25] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-08 14:12:14.556 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570515134556
+2019-10-08 14:12:14.703  INFO 20508 --- [http-nio-9600-exec-25] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-10-08 14:12:14.707  INFO 20508 --- [http-nio-9600-exec-25] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-10-08 14:12:14.959  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:12:15.603 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:12:15.626 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: c8b86bcd418843b890056e1d95d3f65b(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"c8b86bcd418843b890056e1d95d3f65b","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 14:12:15.633 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:12:15.906 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570515135906
+2019-10-08 14:12:15.909 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570515135909
+2019-10-08 14:12:15.909 DEBUG 20508 --- [http-nio-9600-exec-25] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570515135909
+2019-10-08 14:12:16.036 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 14:12:16.036 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:12:16.058 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 14:12:16.059 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:12:16.064 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 14:12:16.066 DEBUG 20508 --- [http-nio-9600-exec-25] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570515136066
+2019-10-08 14:12:16.068 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:12:16.068 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 7aa98f5bd44642e180c31d17eded9f7a(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"7aa98f5bd44642e180c31d17eded9f7a","operation":"机柜-列表"}(String), system(String)
+2019-10-08 14:12:16.071 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:12:16.095 DEBUG 20508 --- [http-nio-9600-exec-25] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 14:12:16.095 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570515136095
+2019-10-08 14:12:16.095 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570515136095
+2019-10-08 14:12:16.095 DEBUG 20508 --- [http-nio-9600-exec-25] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570515136095
+2019-10-08 14:12:50.528 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570515170528
+2019-10-08 14:12:50.532 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:12:50.532 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 4911f397e1e046c4ab4199236de88ebc(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"4911f397e1e046c4ab4199236de88ebc","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 14:12:50.539 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:12:50.559 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570515170559
+2019-10-08 14:12:50.562 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570515170562
+2019-10-08 14:12:50.562 DEBUG 20508 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570515170562
+2019-10-08 14:12:50.568 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 14:12:50.568 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:12:50.569 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 14:12:50.569 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:12:50.571 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 14:12:50.571 DEBUG 20508 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570515170571
+2019-10-08 14:12:50.573 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:12:50.574 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8f5a3a6f4a82412d912be532efb821d6(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"8f5a3a6f4a82412d912be532efb821d6","operation":"机柜-列表"}(String), system(String)
+2019-10-08 14:12:50.589 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:12:50.656 DEBUG 20508 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 14:12:50.657 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570515170657
+2019-10-08 14:12:50.657 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570515170657
+2019-10-08 14:12:50.657 DEBUG 20508 --- [http-nio-9600-exec-28] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570515170657
+2019-10-08 14:13:54.763 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570515234763
+2019-10-08 14:13:54.774 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:13:54.775 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: e80d7c93c0ac408e9b4f97c46f58e72f(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"e80d7c93c0ac408e9b4f97c46f58e72f","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 14:13:54.780 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:13:54.813 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570515234813
+2019-10-08 14:13:54.816 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570515234816
+2019-10-08 14:13:54.816 DEBUG 20508 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570515234816
+2019-10-08 14:13:54.823 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 14:13:54.824 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:13:54.825 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 14:13:54.825 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:13:54.826 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 14:13:54.826 DEBUG 20508 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570515234826
+2019-10-08 14:13:54.828 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:13:54.828 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: f0c90623f4fd4efba0677e0ac3df8ef9(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"f0c90623f4fd4efba0677e0ac3df8ef9","operation":"机柜-列表"}(String), system(String)
+2019-10-08 14:13:54.837 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:13:54.897 DEBUG 20508 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 14:13:54.897 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570515234897
+2019-10-08 14:13:54.897 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570515234897
+2019-10-08 14:13:54.897 DEBUG 20508 --- [http-nio-9600-exec-29] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570515234897
+2019-10-08 14:17:14.961  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:22:14.962  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:24:34.967 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570515874967
+2019-10-08 14:24:34.972 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:24:34.973 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 7dbac68fbfcf4c2785a8e6b813389a80(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"7dbac68fbfcf4c2785a8e6b813389a80","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 14:24:34.977 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:24:35.029 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570515875029
+2019-10-08 14:24:35.031 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570515875031
+2019-10-08 14:24:35.031 DEBUG 20508 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570515875031
+2019-10-08 14:24:35.036 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 14:24:35.037 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:24:35.038 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 14:24:35.038 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 14:24:35.039 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 14:24:35.039 DEBUG 20508 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570515875039
+2019-10-08 14:24:35.043 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 14:24:35.044 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8711c9f07cf44504817e2ffaf6a084a7(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"8711c9f07cf44504817e2ffaf6a084a7","operation":"机柜-列表"}(String), system(String)
+2019-10-08 14:24:35.057 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 14:24:35.097 DEBUG 20508 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 14:24:35.097 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570515875097
+2019-10-08 14:24:35.098 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570515875098
+2019-10-08 14:24:35.098 DEBUG 20508 --- [http-nio-9600-exec-27] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570515875098
+2019-10-08 14:27:14.964  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:32:14.965  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:37:14.968  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:42:14.970  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:47:14.972  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:52:14.973  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 14:57:14.980  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:02:14.983  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:07:14.984  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:11:29.871 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570518689871
+2019-10-08 15:11:29.896 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:11:29.900 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: dec63f17d172466b8f280d1168ebba6b(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"dec63f17d172466b8f280d1168ebba6b","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:11:29.909 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:11:29.949 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570518689949
+2019-10-08 15:11:29.952 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570518689952
+2019-10-08 15:11:29.952 DEBUG 20508 --- [http-nio-9600-exec-1] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570518689952
+2019-10-08 15:11:29.962 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 15:11:29.963 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 15:11:29.967 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:11:29.967 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 15:11:29.969 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 15:11:29.969 DEBUG 20508 --- [http-nio-9600-exec-1] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570518689969
+2019-10-08 15:11:29.971 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:11:29.974 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 4f3607ceed594cc085ddfa6be9525ff7(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"4f3607ceed594cc085ddfa6be9525ff7","operation":"机柜-列表"}(String), system(String)
+2019-10-08 15:11:29.987 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:11:30.041 DEBUG 20508 --- [http-nio-9600-exec-1] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:11:30.041 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570518690041
+2019-10-08 15:11:30.041 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570518690041
+2019-10-08 15:11:30.041 DEBUG 20508 --- [http-nio-9600-exec-1] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570518690041
+2019-10-08 15:12:14.988  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:14:44.999 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570518884999
+2019-10-08 15:14:45.011 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:14:45.012 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 4823dbadd741411eafb75f98b06f1e45(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"4823dbadd741411eafb75f98b06f1e45","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:14:45.019 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:14:45.065 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570518885065
+2019-10-08 15:14:45.066 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570518885066
+2019-10-08 15:14:45.066 DEBUG 20508 --- [http-nio-9600-exec-3] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570518885066
+2019-10-08 15:14:45.071 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 15:14:45.071 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 15:14:45.073 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:14:45.073 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 15:14:45.073 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 0
+2019-10-08 15:14:45.074 DEBUG 20508 --- [http-nio-9600-exec-3] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570518885074
+2019-10-08 15:14:45.075 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:14:45.076 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1467c4fa77d3445f93b54526b8b37775(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"1467c4fa77d3445f93b54526b8b37775","operation":"机柜-列表"}(String), system(String)
+2019-10-08 15:14:45.089 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:14:45.126 DEBUG 20508 --- [http-nio-9600-exec-3] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:14:45.126 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570518885126
+2019-10-08 15:14:45.126 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570518885126
+2019-10-08 15:14:45.126 DEBUG 20508 --- [http-nio-9600-exec-3] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570518885126
+2019-10-08 15:16:29.084 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570518989084
+2019-10-08 15:16:29.089 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:16:29.090 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 62e781f4a3324d98a7b583903ca5ad18(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.save","authzCode":"device:devicecabinet:save","icon":"skill","mqid":"62e781f4a3324d98a7b583903ca5ad18","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-保存","roleName":"device","name":"device_devicecabinet_save","perms":"","describe":"机柜-保存","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:16:29.094 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:16:29.115 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570518989115
+2019-10-08 15:16:29.119 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570518989119
+2019-10-08 15:16:29.119 DEBUG 20508 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570518989119
+2019-10-08 15:16:29.478 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceCabinetDao.insert      : ==>  Preparing: INSERT INTO device_cabinet ( ID, cabinet_sn, qr_code, device_type, device_num, agent, bus, pos, lease, state ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2019-10-08 15:16:29.481 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceCabinetDao.insert      : ==> Parameters: 93e18b6e0d80a70896eec265dbba3a8f(String), CT044190712501(String), CT044190712501(String), 6(String), 6(String), 0640c16785f601ade87bf5b78b7ddb9b(String), 911c85e1879de9d246b33ad279e13f9a(String), 1(String), (String), (String)
+2019-10-08 15:16:29.485 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceCabinetDao.insert      : <==    Updates: 1
+2019-10-08 15:16:29.488 DEBUG 20508 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570518989488
+2019-10-08 15:16:29.489 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:16:29.489 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1cdbbd8484874d4aa086ead4322c7fa7(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.save","ip":"127.0.0.1","mqid":"1cdbbd8484874d4aa086ead4322c7fa7","operation":"机柜-保存"}(String), system(String)
+2019-10-08 15:16:29.494 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:16:29.510 DEBUG 20508 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:16:29.511 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570518989511
+2019-10-08 15:16:29.511 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570518989511
+2019-10-08 15:16:29.511 DEBUG 20508 --- [http-nio-9600-exec-5] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570518989511
+2019-10-08 15:16:34.301 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570518994301
+2019-10-08 15:16:34.308 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:16:34.309 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 05a80e83fb7b4587ab37da5e053e2a89(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"05a80e83fb7b4587ab37da5e053e2a89","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:16:34.313 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:16:34.334 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570518994334
+2019-10-08 15:16:34.336 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570518994336
+2019-10-08 15:16:34.336 DEBUG 20508 --- [http-nio-9600-exec-6] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570518994336
+2019-10-08 15:16:34.339 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 15:16:34.341 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 15:16:34.382 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:16:34.384 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:16:34.411 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 1
+2019-10-08 15:16:34.413 DEBUG 20508 --- [http-nio-9600-exec-6] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570518994411
+2019-10-08 15:16:34.418 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:16:34.418 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 2f646b85d45044df9804a2032bf01dee(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"2f646b85d45044df9804a2032bf01dee","operation":"机柜-列表"}(String), system(String)
+2019-10-08 15:16:34.426 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:16:34.448 DEBUG 20508 --- [http-nio-9600-exec-6] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:16:34.448 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570518994448
+2019-10-08 15:16:34.449 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570518994449
+2019-10-08 15:16:34.449 DEBUG 20508 --- [http-nio-9600-exec-6] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570518994449
+2019-10-08 15:17:14.988  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:19:30.773 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570519170773
+2019-10-08 15:19:30.779 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:19:30.780 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 60ebfb50cb9e4154a3e4a2219ca8b292(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","authzCode":"device:devicecabinetlog:list","icon":"skill","mqid":"60ebfb50cb9e4154a3e4a2219ca8b292","authoritiesName":"device_cabinet_log","isShow":"N","roleCnName":"","cnName":"机柜租借-列表","roleName":"device","name":"device_devicecabinetlog_list","perms":"","describe":"机柜租借-列表","state":"START","authoritiesCnName":"机柜租借权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:19:30.794 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:19:30.829 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570519170829
+2019-10-08 15:19:30.831 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570519170831
+2019-10-08 15:19:30.831 DEBUG 20508 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570519170831
+2019-10-08 15:19:30.879 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet_log WHERE status = 'A' 
+2019-10-08 15:19:30.880 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:19:30.896 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT ID,cabinet_id,qr_code,start_time,end_time,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet_log WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:19:30.896 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:19:30.898 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.d.d.D.selectPage                   : <==      Total: 0
+2019-10-08 15:19:30.899 DEBUG 20508 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570519170899
+2019-10-08 15:19:30.900 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:19:30.900 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: d846181a03704b91b3d807112d49432b(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","ip":"127.0.0.1","mqid":"d846181a03704b91b3d807112d49432b","operation":"机柜租借-列表"}(String), system(String)
+2019-10-08 15:19:30.903 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:19:30.919 DEBUG 20508 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:19:30.919 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570519170919
+2019-10-08 15:19:30.919 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570519170919
+2019-10-08 15:19:30.919 DEBUG 20508 --- [http-nio-9600-exec-8] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570519170919
+2019-10-08 15:19:47.855 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570519187855
+2019-10-08 15:19:47.860 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:19:47.860 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 0ac3dde8edd2460f907d468f5999c947(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"0ac3dde8edd2460f907d468f5999c947","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:19:47.873 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:19:47.938 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570519187938
+2019-10-08 15:19:47.941 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570519187941
+2019-10-08 15:19:47.941 DEBUG 20508 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570519187941
+2019-10-08 15:19:47.990 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:19:47.991 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:19:47.997 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:19:47.997 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:19:47.998 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 0
+2019-10-08 15:19:47.999 DEBUG 20508 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570519187999
+2019-10-08 15:19:48.001 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:19:48.001 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 4829274d54d24a42bc2e6232231b27da(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"4829274d54d24a42bc2e6232231b27da","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:19:48.005 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:19:48.018 DEBUG 20508 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:19:48.018 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570519188018
+2019-10-08 15:19:48.018 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570519188018
+2019-10-08 15:19:48.018 DEBUG 20508 --- [http-nio-9600-exec-10] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570519188018
+2019-10-08 15:22:14.998  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:27:14.999  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:32:15.001  INFO 20508 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:32:32.552 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570519952552
+2019-10-08 15:32:32.554 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:32:32.555 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 73f4670bb5b047a3aa57ea53c2e1825e(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","authzCode":"device:devicecharge:save","icon":"skill","mqid":"73f4670bb5b047a3aa57ea53c2e1825e","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-保存","roleName":"device","name":"device_devicecharge_save","perms":"","describe":"充电宝-保存","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:32:32.563 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:32:32.581 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570519952581
+2019-10-08 15:32:32.584 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570519952584
+2019-10-08 15:32:32.584 DEBUG 20508 --- [http-nio-9600-exec-11] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570519952584
+2019-10-08 15:32:32.591 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.device.dao.DeviceChargeDao.insert  : ==>  Preparing: INSERT INTO device_charge ( ID, charge_sn, charge_sum ) VALUES ( ?, ?, ? ) 
+2019-10-08 15:32:32.591 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.device.dao.DeviceChargeDao.insert  : ==> Parameters: 8c6f6d60df6abbdf61ffa3718e0b0bdb(String), (String), DT1908179447(String)
+2019-10-08 15:32:32.595 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.device.dao.DeviceChargeDao.insert  : <==    Updates: 1
+2019-10-08 15:32:32.596 DEBUG 20508 --- [http-nio-9600-exec-11] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570519952596
+2019-10-08 15:32:32.597 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:32:32.597 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: c1c2adb6dace483498d02d0eba392d1c(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","ip":"127.0.0.1","mqid":"c1c2adb6dace483498d02d0eba392d1c","operation":"充电宝-保存"}(String), system(String)
+2019-10-08 15:32:32.601 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:32:32.622 DEBUG 20508 --- [http-nio-9600-exec-11] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:32:32.622 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570519952622
+2019-10-08 15:32:32.622 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570519952622
+2019-10-08 15:32:32.622 DEBUG 20508 --- [http-nio-9600-exec-11] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570519952622
+2019-10-08 15:32:36.283 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570519956283
+2019-10-08 15:32:36.297 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:32:36.298 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: df2d8eca9ed34e489f707a37ca928098(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"df2d8eca9ed34e489f707a37ca928098","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:32:36.302 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:32:36.329 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570519956329
+2019-10-08 15:32:36.330 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570519956330
+2019-10-08 15:32:36.330 DEBUG 20508 --- [http-nio-9600-exec-12] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570519956330
+2019-10-08 15:32:36.332 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:32:36.332 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:32:36.334 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:32:36.334 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:32:36.336 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:32:36.337 DEBUG 20508 --- [http-nio-9600-exec-12] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570519956337
+2019-10-08 15:32:36.338 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:32:36.338 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 0a844c5eca184a07b9b5332d030a7dff(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"0a844c5eca184a07b9b5332d030a7dff","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:32:36.351 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:32:36.371 DEBUG 20508 --- [http-nio-9600-exec-12] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:32:36.372 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570519956372
+2019-10-08 15:32:36.372 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570519956372
+2019-10-08 15:32:36.372 DEBUG 20508 --- [http-nio-9600-exec-12] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570519956372
+2019-10-08 15:34:08.624 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520048624
+2019-10-08 15:34:08.627 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:34:08.627 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 109a13a567d547209f8b5942627cdd79(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","authzCode":"device:devicecharge:save","icon":"skill","mqid":"109a13a567d547209f8b5942627cdd79","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-保存","roleName":"device","name":"device_devicecharge_save","perms":"","describe":"充电宝-保存","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:34:08.632 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:34:09.590 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520049590
+2019-10-08 15:34:09.591 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520049591
+2019-10-08 15:34:09.592 DEBUG 20508 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520049592
+2019-10-08 15:34:09.592 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.device.dao.DeviceChargeDao.insert  : ==>  Preparing: INSERT INTO device_charge ( ID, charge_sn, charge_sum ) VALUES ( ?, ?, ? ) 
+2019-10-08 15:34:09.592 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.device.dao.DeviceChargeDao.insert  : ==> Parameters: e8dba74b7c718e8563ed85426367abab(String), (String), DT1908179447(String)
+2019-10-08 15:34:09.596 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.device.dao.DeviceChargeDao.insert  : <==    Updates: 1
+2019-10-08 15:34:09.596 DEBUG 20508 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520049596
+2019-10-08 15:34:09.597 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:34:09.597 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 22dac2bcaff24280a373fcffeaf0961f(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","ip":"127.0.0.1","mqid":"22dac2bcaff24280a373fcffeaf0961f","operation":"充电宝-保存"}(String), system(String)
+2019-10-08 15:34:09.603 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:34:09.728 DEBUG 20508 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:34:09.728 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520049728
+2019-10-08 15:34:09.728 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520049728
+2019-10-08 15:34:09.728 DEBUG 20508 --- [http-nio-9600-exec-13] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520049728
+2019-10-08 15:34:14.693 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520054693
+2019-10-08 15:34:14.695 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:34:14.695 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 667923f115bf42beaa8e3558c9ed662b(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"667923f115bf42beaa8e3558c9ed662b","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:34:14.701 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:34:14.717 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520054717
+2019-10-08 15:34:14.718 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520054718
+2019-10-08 15:34:14.718 DEBUG 20508 --- [http-nio-9600-exec-15] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520054718
+2019-10-08 15:34:14.721 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:34:14.721 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:34:14.722 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:34:14.722 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:34:14.724 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:34:14.724 DEBUG 20508 --- [http-nio-9600-exec-15] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520054724
+2019-10-08 15:34:14.725 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:34:14.726 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: d3922bd4e110488b95b8a893ce8f3eed(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"d3922bd4e110488b95b8a893ce8f3eed","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:34:14.732 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:34:14.758 DEBUG 20508 --- [http-nio-9600-exec-15] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:34:14.758 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520054758
+2019-10-08 15:34:14.758 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520054758
+2019-10-08 15:34:14.759 DEBUG 20508 --- [http-nio-9600-exec-15] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520054759
+2019-10-08 15:34:26.120  WARN 20508 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570520066120, current=DOWN, previous=UP]
+2019-10-08 15:34:26.121  INFO 20508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 15:34:26.147  INFO 20508 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-10-08 15:34:26.149  INFO 20508 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-10-08 15:34:26.188  INFO 20508 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 15:34:26.335  INFO 20508 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - deregister  status: 200
+2019-10-08 15:34:26.348  INFO 20508 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-10-08 15:34:26.390  INFO 20508 --- [Thread-34] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-10-08 15:34:42.101  INFO 17312 --- [main] io.renren.SysClientDeviceApplication     : The following profiles are active: dev
+2019-10-08 15:34:44.817  INFO 17312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-08 15:34:44.817  INFO 17312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 15:34:44.823  INFO 17312 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zongsuo\AppData\Roaming\npm;C:\Users\zongsuo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zongsuo\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-08 15:34:44.976  INFO 17312 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-08 15:34:45.968  INFO 17312 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-10-08 15:34:46.478  INFO 17312 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-08 15:34:48.505  INFO 17312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-08 15:34:48.662  WARN 17312 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 15:34:48.662  INFO 17312 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 15:34:48.668  WARN 17312 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 15:34:48.668  INFO 17312 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 15:34:49.952  WARN 17312 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-08 15:34:51.775  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-08 15:34:52.409  INFO 17312 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-10-08 15:34:52.410  INFO 17312 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-10-08 15:34:52.817  INFO 17312 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-10-08 15:34:52.817  INFO 17312 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-10-08 15:34:53.181  INFO 17312 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-10-08 15:34:53.475  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-10-08 15:34:53.756  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-10-08 15:34:53.760  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-10-08 15:34:53.763  INFO 17312 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-08 15:34:53.769  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1570520093767 with initial instances count: 5
+2019-10-08 15:34:53.782  INFO 17312 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570520093782, current=UP, previous=STARTING]
+2019-10-08 15:34:53.784  INFO 17312 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 15:34:53.790  INFO 17312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-08 15:34:53.823  INFO 17312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-08 15:34:53.854  INFO 17312 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 15:34:53.905  INFO 17312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-08 15:34:54.171  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.184  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.191  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.194  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.200  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.206  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.210  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.212  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2019-10-08 15:34:54.217  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.218  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_1
+2019-10-08 15:34:54.221  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.222  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_1
+2019-10-08 15:34:54.225  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.226  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_1
+2019-10-08 15:34:54.229  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.230  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-08 15:34:54.233  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.234  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2019-10-08 15:34:54.237  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.239  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2019-10-08 15:34:54.241  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.242  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_2
+2019-10-08 15:34:54.248  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.249  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_2
+2019-10-08 15:34:54.251  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.252  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_2
+2019-10-08 15:34:54.256  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.257  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-08 15:34:54.259  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.260  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2019-10-08 15:34:54.263  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.264  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_3
+2019-10-08 15:34:54.266  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.267  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_3
+2019-10-08 15:34:54.270  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.272  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_3
+2019-10-08 15:34:54.274  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.275  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_3
+2019-10-08 15:34:54.278  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.280  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2019-10-08 15:34:54.290  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.293  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2019-10-08 15:34:54.298  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.299  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_4
+2019-10-08 15:34:54.302  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.303  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_4
+2019-10-08 15:34:54.306  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.308  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_4
+2019-10-08 15:34:54.310  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.312  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_4
+2019-10-08 15:34:54.315  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.316  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_4
+2019-10-08 15:34:54.320  INFO 17312 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:34:54.322  INFO 17312 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_4
+2019-10-08 15:34:54.412  INFO 17312 --- [main] io.renren.SysClientDeviceApplication     : Started SysClientDeviceApplication in 15.099 seconds (JVM running for 17.492)
+2019-10-08 15:34:54.414 DEBUG 17312 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动!
+2019-10-08 15:34:54.415 DEBUG 17312 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动完成!
+2019-10-08 15:37:32.060  INFO 17312 --- [http-nio-9600-exec-30] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-08 15:37:32.313 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520252313
+2019-10-08 15:37:32.436  INFO 17312 --- [http-nio-9600-exec-30] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-10-08 15:37:32.439  INFO 17312 --- [http-nio-9600-exec-30] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-10-08 15:37:33.303 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:33.325 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 5d6c93fe1a014821b2d8eefe1df6a56e(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"5d6c93fe1a014821b2d8eefe1df6a56e","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:37:33.342 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:33.589 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520253589
+2019-10-08 15:37:33.592 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520253592
+2019-10-08 15:37:33.593 DEBUG 17312 --- [http-nio-9600-exec-30] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520253593
+2019-10-08 15:37:33.697 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:37:33.697 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:37:33.704 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:37:33.704 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:37:33.708 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 0
+2019-10-08 15:37:33.708 DEBUG 17312 --- [http-nio-9600-exec-30] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520253708
+2019-10-08 15:37:33.713 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:33.713 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: b79170b269f849c68a74cea0de92816a(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"b79170b269f849c68a74cea0de92816a","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:37:33.716 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:33.731 DEBUG 17312 --- [http-nio-9600-exec-30] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:37:33.731 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520253731
+2019-10-08 15:37:33.731 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520253731
+2019-10-08 15:37:33.731 DEBUG 17312 --- [http-nio-9600-exec-30] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520253731
+2019-10-08 15:37:38.627 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520258627
+2019-10-08 15:37:38.630 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:38.630 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8f9e08411e9443eb8839fdb37bcf5285(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","authzCode":"device:devicecharge:save","icon":"skill","mqid":"8f9e08411e9443eb8839fdb37bcf5285","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-保存","roleName":"device","name":"device_devicecharge_save","perms":"","describe":"充电宝-保存","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:37:38.634 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:38.662 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520258662
+2019-10-08 15:37:38.663 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520258663
+2019-10-08 15:37:38.664 DEBUG 17312 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520258664
+2019-10-08 15:37:38.955 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.device.dao.DeviceChargeDao.insert  : ==>  Preparing: INSERT INTO device_charge ( ID, charge_sn, charge_sum ) VALUES ( ?, ?, ? ) 
+2019-10-08 15:37:38.956 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.device.dao.DeviceChargeDao.insert  : ==> Parameters: a56dc070b7db4fcc45cafd5fc3621b1a(String), DT20191008153738665(String), DT1908179447(String)
+2019-10-08 15:37:38.966 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.device.dao.DeviceChargeDao.insert  : <==    Updates: 1
+2019-10-08 15:37:38.967 DEBUG 17312 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520258967
+2019-10-08 15:37:38.968 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:38.968 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: eef73369ab5a43d9854b259328865702(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","ip":"127.0.0.1","mqid":"eef73369ab5a43d9854b259328865702","operation":"充电宝-保存"}(String), system(String)
+2019-10-08 15:37:38.972 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:38.991 DEBUG 17312 --- [http-nio-9600-exec-29] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:37:38.992 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520258992
+2019-10-08 15:37:38.992 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520258992
+2019-10-08 15:37:38.992 DEBUG 17312 --- [http-nio-9600-exec-29] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520258992
+2019-10-08 15:37:43.932 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520263931
+2019-10-08 15:37:43.934 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:43.934 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: b8134191e10a4f139f4c826d8b34e18e(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"b8134191e10a4f139f4c826d8b34e18e","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:37:43.946 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:43.979 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520263979
+2019-10-08 15:37:43.980 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520263980
+2019-10-08 15:37:43.980 DEBUG 17312 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520263980
+2019-10-08 15:37:43.983 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:37:43.983 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:37:43.991 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:37:43.992 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:37:43.996 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:37:43.996 DEBUG 17312 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520263996
+2019-10-08 15:37:43.998 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:43.998 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8e304998b67444a5a9670d2b674c991f(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"8e304998b67444a5a9670d2b674c991f","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:37:44.009 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:44.048 DEBUG 17312 --- [http-nio-9600-exec-28] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:37:44.048 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520264048
+2019-10-08 15:37:44.048 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520264048
+2019-10-08 15:37:44.048 DEBUG 17312 --- [http-nio-9600-exec-28] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520264048
+2019-10-08 15:37:52.151 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520272151
+2019-10-08 15:37:52.156 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:52.156 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 6b1c732426114495b46db8da3f9dcf14(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.info","authzCode":"device:devicecharge:info","icon":"skill","mqid":"6b1c732426114495b46db8da3f9dcf14","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-信息","roleName":"device","name":"device_devicecharge_info","perms":"","describe":"充电宝-信息","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:37:52.162 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:52.193 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520272193
+2019-10-08 15:37:52.197 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520272197
+2019-10-08 15:37:52.198 DEBUG 17312 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520272198
+2019-10-08 15:37:52.199 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceChargeDao.selectById   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE ID=? AND status='A' 
+2019-10-08 15:37:52.199 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceChargeDao.selectById   : ==> Parameters: a56dc070b7db4fcc45cafd5fc3621b1a(String)
+2019-10-08 15:37:52.201 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.d.dao.DeviceChargeDao.selectById   : <==      Total: 1
+2019-10-08 15:37:52.202 DEBUG 17312 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520272202
+2019-10-08 15:37:52.203 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:37:52.204 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 11761324826e4d9bbe1fc995068c0523(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.info","ip":"127.0.0.1","mqid":"11761324826e4d9bbe1fc995068c0523","operation":"充电宝-信息"}(String), system(String)
+2019-10-08 15:37:52.213 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:37:52.235 DEBUG 17312 --- [http-nio-9600-exec-27] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:37:52.235 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520272235
+2019-10-08 15:37:52.236 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520272236
+2019-10-08 15:37:52.236 DEBUG 17312 --- [http-nio-9600-exec-27] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520272236
+2019-10-08 15:38:03.083 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520283083
+2019-10-08 15:38:03.087 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:38:03.088 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 073bd56d565f40539bbb1a57545e95f7(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","authzCode":"device:devicecabinetlog:list","icon":"skill","mqid":"073bd56d565f40539bbb1a57545e95f7","authoritiesName":"device_cabinet_log","isShow":"N","roleCnName":"","cnName":"机柜租借-列表","roleName":"device","name":"device_devicecabinetlog_list","perms":"","describe":"机柜租借-列表","state":"START","authoritiesCnName":"机柜租借权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:38:03.097 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:38:03.140 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520283140
+2019-10-08 15:38:03.141 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520283141
+2019-10-08 15:38:03.142 DEBUG 17312 --- [http-nio-9600-exec-26] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520283142
+2019-10-08 15:38:03.162 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet_log WHERE status = 'A' 
+2019-10-08 15:38:03.163 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:38:03.165 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT ID,cabinet_id,qr_code,start_time,end_time,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet_log WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:38:03.166 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:38:03.166 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.d.d.D.selectPage                   : <==      Total: 0
+2019-10-08 15:38:03.167 DEBUG 17312 --- [http-nio-9600-exec-26] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520283167
+2019-10-08 15:38:03.168 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:38:03.169 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 7fb08e3f1d2d4da98d8624eed0f7893a(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","ip":"127.0.0.1","mqid":"7fb08e3f1d2d4da98d8624eed0f7893a","operation":"机柜租借-列表"}(String), system(String)
+2019-10-08 15:38:03.181 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:38:03.247 DEBUG 17312 --- [http-nio-9600-exec-26] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:38:03.247 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520283247
+2019-10-08 15:38:03.248 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520283248
+2019-10-08 15:38:03.248 DEBUG 17312 --- [http-nio-9600-exec-26] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520283248
+2019-10-08 15:39:53.479  INFO 17312 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:40:40.781 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520440781
+2019-10-08 15:40:40.789 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:40.789 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 584ade55d9274715a03c86249a46d170(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","authzCode":"device:devicecabinetlog:list","icon":"skill","mqid":"584ade55d9274715a03c86249a46d170","authoritiesName":"device_cabinet_log","isShow":"N","roleCnName":"","cnName":"机柜租借-列表","roleName":"device","name":"device_devicecabinetlog_list","perms":"","describe":"机柜租借-列表","state":"START","authoritiesCnName":"机柜租借权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:40:40.804 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:40.838 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520440838
+2019-10-08 15:40:40.840 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520440840
+2019-10-08 15:40:40.840 DEBUG 17312 --- [http-nio-9600-exec-24] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520440840
+2019-10-08 15:40:40.842 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet_log WHERE status = 'A' 
+2019-10-08 15:40:40.843 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:40:40.844 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.d.d.D.selectPage                   : ==>  Preparing: SELECT ID,cabinet_id,qr_code,start_time,end_time,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet_log WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:40:40.844 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.d.d.D.selectPage                   : ==> Parameters: 
+2019-10-08 15:40:40.845 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.d.d.D.selectPage                   : <==      Total: 0
+2019-10-08 15:40:40.845 DEBUG 17312 --- [http-nio-9600-exec-24] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520440845
+2019-10-08 15:40:40.846 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:40.847 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: b0897ec3f6c94397a8b4e824279330d3(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetLogController.list","ip":"127.0.0.1","mqid":"b0897ec3f6c94397a8b4e824279330d3","operation":"机柜租借-列表"}(String), system(String)
+2019-10-08 15:40:40.852 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:40.906 DEBUG 17312 --- [http-nio-9600-exec-24] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:40:40.906 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520440906
+2019-10-08 15:40:40.906 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520440906
+2019-10-08 15:40:40.907 DEBUG 17312 --- [http-nio-9600-exec-24] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520440907
+2019-10-08 15:40:43.742 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520443742
+2019-10-08 15:40:43.745 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:43.746 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1184effe634d46a1ab426b9e7b96315d(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"1184effe634d46a1ab426b9e7b96315d","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:40:43.750 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:43.792 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520443792
+2019-10-08 15:40:43.793 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520443793
+2019-10-08 15:40:43.794 DEBUG 17312 --- [http-nio-9600-exec-23] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520443794
+2019-10-08 15:40:43.796 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:40:43.796 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:40:43.798 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:40:43.798 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:40:43.799 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:40:43.800 DEBUG 17312 --- [http-nio-9600-exec-23] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520443800
+2019-10-08 15:40:43.801 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:43.801 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 53db92fedb2c46158e79e3fdb9f9ebf7(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"53db92fedb2c46158e79e3fdb9f9ebf7","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:40:43.815 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:43.864 DEBUG 17312 --- [http-nio-9600-exec-23] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:40:43.864 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520443864
+2019-10-08 15:40:43.865 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520443864
+2019-10-08 15:40:43.865 DEBUG 17312 --- [http-nio-9600-exec-23] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520443865
+2019-10-08 15:40:46.112 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520446112
+2019-10-08 15:40:46.115 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:46.116 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 17ae4f6afdf0463487b71777859d65bf(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"17ae4f6afdf0463487b71777859d65bf","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:40:46.123 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:46.160 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520446160
+2019-10-08 15:40:46.161 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520446161
+2019-10-08 15:40:46.161 DEBUG 17312 --- [http-nio-9600-exec-22] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520446161
+2019-10-08 15:40:46.162 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:40:46.163 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:40:46.164 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:40:46.164 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:40:46.165 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:40:46.166 DEBUG 17312 --- [http-nio-9600-exec-22] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520446166
+2019-10-08 15:40:46.167 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:46.167 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: e9cdce45848f492db9062f98d8b0731e(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"e9cdce45848f492db9062f98d8b0731e","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:40:46.184 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:46.225 DEBUG 17312 --- [http-nio-9600-exec-22] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:40:46.225 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520446225
+2019-10-08 15:40:46.225 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520446225
+2019-10-08 15:40:46.226 DEBUG 17312 --- [http-nio-9600-exec-22] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520446226
+2019-10-08 15:40:59.385 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520459385
+2019-10-08 15:40:59.390 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:59.392 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8245217d42d1483ca4a593daf52ae317(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"8245217d42d1483ca4a593daf52ae317","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:40:59.406 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:59.464 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520459464
+2019-10-08 15:40:59.466 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520459466
+2019-10-08 15:40:59.467 DEBUG 17312 --- [http-nio-9600-exec-20] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520459467
+2019-10-08 15:40:59.469 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:40:59.469 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:40:59.470 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 15:40:59.470 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:40:59.471 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 0
+2019-10-08 15:40:59.472 DEBUG 17312 --- [http-nio-9600-exec-20] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520459472
+2019-10-08 15:40:59.473 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:40:59.473 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 864db1b9f5e74d5baafae59c9cbfb237(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"864db1b9f5e74d5baafae59c9cbfb237","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:40:59.491 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:40:59.532 DEBUG 17312 --- [http-nio-9600-exec-20] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:40:59.532 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520459532
+2019-10-08 15:40:59.532 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520459532
+2019-10-08 15:40:59.532 DEBUG 17312 --- [http-nio-9600-exec-20] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520459532
+2019-10-08 15:41:18.181 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520478181
+2019-10-08 15:41:18.183 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:41:18.183 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 143ae29d010d41f99a613a230e0470f6(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","authzCode":"device:devicecharge:save","icon":"skill","mqid":"143ae29d010d41f99a613a230e0470f6","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-保存","roleName":"device","name":"device_devicecharge_save","perms":"","describe":"充电宝-保存","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:41:18.188 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:41:18.211 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520478211
+2019-10-08 15:41:18.213 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520478213
+2019-10-08 15:41:18.213 DEBUG 17312 --- [http-nio-9600-exec-19] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520478213
+2019-10-08 15:41:18.214 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.device.dao.DeviceChargeDao.insert  : ==>  Preparing: INSERT INTO device_charge ( ID, charge_sn, charge_sum ) VALUES ( ?, ?, ? ) 
+2019-10-08 15:41:18.214 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.device.dao.DeviceChargeDao.insert  : ==> Parameters: 012b915af7f3b712906d8e48fbf381bf(String), DT20191008154118213(String), DT1908179447(String)
+2019-10-08 15:41:18.220 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.device.dao.DeviceChargeDao.insert  : <==    Updates: 1
+2019-10-08 15:41:18.220 DEBUG 17312 --- [http-nio-9600-exec-19] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520478220
+2019-10-08 15:41:18.221 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:41:18.221 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 521794a67faf4f00a537fb84cd906614(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.save","ip":"127.0.0.1","mqid":"521794a67faf4f00a537fb84cd906614","operation":"充电宝-保存"}(String), system(String)
+2019-10-08 15:41:18.226 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:41:18.239 DEBUG 17312 --- [http-nio-9600-exec-19] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:41:18.240 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520478240
+2019-10-08 15:41:18.240 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520478240
+2019-10-08 15:41:18.240 DEBUG 17312 --- [http-nio-9600-exec-19] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520478240
+2019-10-08 15:43:14.780 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520594780
+2019-10-08 15:43:14.784 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:43:14.784 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: fc09f5306edc4d409b550f75a5bf1a33(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"fc09f5306edc4d409b550f75a5bf1a33","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:43:14.793 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:43:14.829 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520594829
+2019-10-08 15:43:14.830 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520594830
+2019-10-08 15:43:14.830 DEBUG 17312 --- [http-nio-9600-exec-18] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520594830
+2019-10-08 15:43:14.832 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:43:14.833 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:43:14.835 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:43:14.835 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:43:14.837 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:43:14.838 DEBUG 17312 --- [http-nio-9600-exec-18] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520594838
+2019-10-08 15:43:14.839 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:43:14.839 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 7b0fa1a5f3144c0aafc6e62467529a58(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"7b0fa1a5f3144c0aafc6e62467529a58","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:43:14.845 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:43:14.889 DEBUG 17312 --- [http-nio-9600-exec-18] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:43:14.890 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520594890
+2019-10-08 15:43:14.890 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520594890
+2019-10-08 15:43:14.890 DEBUG 17312 --- [http-nio-9600-exec-18] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520594890
+2019-10-08 15:43:23.074 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520603074
+2019-10-08 15:43:23.076 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:43:23.076 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 6821b0d4a99e4ec4a1782289e28768ce(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"6821b0d4a99e4ec4a1782289e28768ce","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:43:23.080 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:43:23.116 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520603116
+2019-10-08 15:43:23.117 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520603117
+2019-10-08 15:43:23.117 DEBUG 17312 --- [http-nio-9600-exec-17] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520603117
+2019-10-08 15:43:23.119 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:43:23.119 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:43:23.120 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:43:23.120 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:43:23.121 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:43:23.122 DEBUG 17312 --- [http-nio-9600-exec-17] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520603122
+2019-10-08 15:43:23.123 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:43:23.123 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 4959ce90da3242a28fa01a691fe82839(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"4959ce90da3242a28fa01a691fe82839","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:43:23.147 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:43:23.181 DEBUG 17312 --- [http-nio-9600-exec-17] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:43:23.182 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520603182
+2019-10-08 15:43:23.182 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520603182
+2019-10-08 15:43:23.182 DEBUG 17312 --- [http-nio-9600-exec-17] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520603182
+2019-10-08 15:44:05.571  WARN 17312 --- [Thread-33] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570520645571, current=DOWN, previous=UP]
+2019-10-08 15:44:05.571  INFO 17312 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 15:44:05.574  INFO 17312 --- [Thread-33] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-10-08 15:44:05.575  INFO 17312 --- [Thread-33] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-10-08 15:44:05.577  INFO 17312 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 15:44:05.587  INFO 17312 --- [Thread-33] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - deregister  status: 200
+2019-10-08 15:44:05.596  INFO 17312 --- [Thread-33] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-10-08 15:44:05.607  INFO 17312 --- [Thread-33] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-10-08 15:44:16.672  INFO 21056 --- [main] io.renren.SysClientDeviceApplication     : The following profiles are active: dev
+2019-10-08 15:44:19.351  INFO 21056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-08 15:44:19.352  INFO 21056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 15:44:19.361  INFO 21056 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zongsuo\AppData\Roaming\npm;C:\Users\zongsuo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zongsuo\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-08 15:44:19.520  INFO 21056 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-08 15:44:20.472  INFO 21056 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-10-08 15:44:20.995  INFO 21056 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-08 15:44:22.900  INFO 21056 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-10-08 15:44:23.059  WARN 21056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 15:44:23.060  INFO 21056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 15:44:23.065  WARN 21056 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-08 15:44:23.066  INFO 21056 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-08 15:44:24.377  WARN 21056 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-08 15:44:26.126  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-08 15:44:26.640  INFO 21056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-10-08 15:44:26.642  INFO 21056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-10-08 15:44:27.106  INFO 21056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-10-08 15:44:27.106  INFO 21056 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-10-08 15:44:27.471  INFO 21056 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:44:27.771  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-10-08 15:44:27.771  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-10-08 15:44:27.772  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-10-08 15:44:27.772  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-10-08 15:44:27.772  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-10-08 15:44:27.772  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-10-08 15:44:27.772  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-10-08 15:44:28.042  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-10-08 15:44:28.046  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-10-08 15:44:28.050  INFO 21056 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-08 15:44:28.055  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1570520668054 with initial instances count: 6
+2019-10-08 15:44:28.069  INFO 21056 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570520668069, current=UP, previous=STARTING]
+2019-10-08 15:44:28.072  INFO 21056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 15:44:28.075  INFO 21056 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-08 15:44:28.111  INFO 21056 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-08 15:44:28.128  INFO 21056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 15:44:28.173  INFO 21056 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-08 15:44:28.437  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.445  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.450  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.453  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.462  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.470  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.475  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.476  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2019-10-08 15:44:28.478  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.479  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_1
+2019-10-08 15:44:28.482  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.484  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_1
+2019-10-08 15:44:28.486  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.488  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_1
+2019-10-08 15:44:28.494  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.495  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-08 15:44:28.499  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.501  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2019-10-08 15:44:28.504  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.505  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2019-10-08 15:44:28.507  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.508  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_2
+2019-10-08 15:44:28.511  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.512  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_2
+2019-10-08 15:44:28.513  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.515  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_2
+2019-10-08 15:44:28.517  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.518  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-08 15:44:28.521  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.522  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2019-10-08 15:44:28.527  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.528  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_3
+2019-10-08 15:44:28.531  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.532  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_3
+2019-10-08 15:44:28.536  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.537  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_3
+2019-10-08 15:44:28.538  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.540  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_3
+2019-10-08 15:44:28.542  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.543  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2019-10-08 15:44:28.545  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.546  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2019-10-08 15:44:28.549  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.550  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_4
+2019-10-08 15:44:28.552  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.553  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: infoUsingPOST_4
+2019-10-08 15:44:28.555  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.556  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingPOST_4
+2019-10-08 15:44:28.561  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.562  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: pushUsingPOST_4
+2019-10-08 15:44:28.566  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.568  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_4
+2019-10-08 15:44:28.571  INFO 21056 --- [main] s.b.v.p.parameter.SizeAnnotationPlugin   : searching for @size: false
+2019-10-08 15:44:28.572  INFO 21056 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_4
+2019-10-08 15:44:28.639  INFO 21056 --- [main] io.renren.SysClientDeviceApplication     : Started SysClientDeviceApplication in 15.189 seconds (JVM running for 16.768)
+2019-10-08 15:44:28.641 DEBUG 21056 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动!
+2019-10-08 15:44:28.641 DEBUG 21056 --- [main] io.renren.config.CacheManager            : 缓存管理-->缓存初始化:服务启动完成!
+2019-10-08 15:45:25.739  INFO 21056 --- [http-nio-9600-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-10-08 15:45:26.015 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570520726015
+2019-10-08 15:45:26.150  INFO 21056 --- [http-nio-9600-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-10-08 15:45:26.153  INFO 21056 --- [http-nio-9600-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-10-08 15:45:27.024 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:45:27.048 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 1d8b3ee47f984d06b69ffad603fe1625(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","authzCode":"device:devicecharge:list","icon":"skill","mqid":"1d8b3ee47f984d06b69ffad603fe1625","authoritiesName":"device_charge","isShow":"N","roleCnName":"","cnName":"充电宝-列表","roleName":"device","name":"device_devicecharge_list","perms":"","describe":"充电宝-列表","state":"START","authoritiesCnName":"充电宝权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 15:45:27.052 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:45:27.293 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570520727293
+2019-10-08 15:45:27.295 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570520727295
+2019-10-08 15:45:27.296 DEBUG 21056 --- [http-nio-9600-exec-2] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570520727296
+2019-10-08 15:45:27.411 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM device_charge WHERE status = 'A' 
+2019-10-08 15:45:27.411 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 
+2019-10-08 15:45:27.427 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==>  Preparing: SELECT ID,charge_sn,charge_sum,charge_count,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_charge WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 15:45:27.427 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.d.dao.DeviceChargeDao.selectPage   : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 15:45:27.434 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.d.dao.DeviceChargeDao.selectPage   : <==      Total: 1
+2019-10-08 15:45:27.435 DEBUG 21056 --- [http-nio-9600-exec-2] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570520727435
+2019-10-08 15:45:27.437 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 15:45:27.438 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 3583ee5509f64196941723dc4f48083a(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceChargeController.list","ip":"127.0.0.1","mqid":"3583ee5509f64196941723dc4f48083a","operation":"充电宝-列表"}(String), system(String)
+2019-10-08 15:45:27.441 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 15:45:27.461 DEBUG 21056 --- [http-nio-9600-exec-2] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 15:45:27.461 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570520727461
+2019-10-08 15:45:27.461 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570520727461
+2019-10-08 15:45:27.462 DEBUG 21056 --- [http-nio-9600-exec-2] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570520727462
+2019-10-08 15:49:27.775  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:54:27.777  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 15:59:27.778  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:04:27.780  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:09:27.782  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:14:27.784  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:19:27.785  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:24:27.787  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:28:31.185 DEBUG 21056 --- [http-nio-9600-exec-3] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570523311185
+2019-10-08 16:28:31.196 DEBUG 21056 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 16:28:31.197 DEBUG 21056 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: bd6280ac5b75440e90dc0cfde24c1537(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","authzCode":"device:deviceline:list","icon":"skill","mqid":"bd6280ac5b75440e90dc0cfde24c1537","authoritiesName":"device_line","isShow":"N","roleCnName":"","cnName":"密码线-列表","roleName":"device","name":"device_deviceline_list","perms":"","describe":"密码线-列表","state":"START","authoritiesCnName":"密码线权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 16:28:31.204 DEBUG 21056 --- [http-nio-9600-exec-3] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 16:28:31.258 DEBUG 21056 --- [http-nio-9600-exec-3] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570523311258
+2019-10-08 16:29:27.789  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:34:17.596 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570523657596
+2019-10-08 16:34:17.603 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 16:34:17.605 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: bebc52b03f694b678a7d870308190b1f(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","authzCode":"device:deviceline:list","icon":"skill","mqid":"bebc52b03f694b678a7d870308190b1f","authoritiesName":"device_line","isShow":"N","roleCnName":"","cnName":"密码线-列表","roleName":"device","name":"device_deviceline_list","perms":"","describe":"密码线-列表","state":"START","authoritiesCnName":"密码线权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 16:34:17.609 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 16:34:17.637 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570523657637
+2019-10-08 16:34:17.639 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570523657639
+2019-10-08 16:34:17.639 DEBUG 21056 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570523657639
+2019-10-08 16:34:17.672 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT COUNT(1) FROM device_line WHERE status = 'A' 
+2019-10-08 16:34:17.673 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 16:34:17.683 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT ID,line_sn,qr_code,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_line WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 16:34:17.683 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 16:34:17.691 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.d.dao.DeviceLineDao.selectPage     : <==      Total: 0
+2019-10-08 16:34:17.692 DEBUG 21056 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570523657692
+2019-10-08 16:34:17.693 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 16:34:17.694 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: f985c2350b3f449194185b16df7dcb42(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","ip":"127.0.0.1","mqid":"f985c2350b3f449194185b16df7dcb42","operation":"密码线-列表"}(String), system(String)
+2019-10-08 16:34:17.698 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 16:34:17.710 DEBUG 21056 --- [http-nio-9600-exec-5] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 16:34:17.710 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570523657710
+2019-10-08 16:34:17.710 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570523657710
+2019-10-08 16:34:17.710 DEBUG 21056 --- [http-nio-9600-exec-5] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570523657710
+2019-10-08 16:34:27.791  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:39:27.791  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:44:27.793  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:49:27.795  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:54:27.797  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 16:59:27.798  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:04:27.801  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:09:27.804  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:14:27.806  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:18:10.333 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570526290333
+2019-10-08 17:18:10.378 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:18:10.380 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 77814b1db87c438687d63d6b500e0b3c(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","authzCode":"device:devicecabinet:list","icon":"skill","mqid":"77814b1db87c438687d63d6b500e0b3c","authoritiesName":"device_cabinet","isShow":"N","roleCnName":"","cnName":"机柜-列表","roleName":"device","name":"device_devicecabinet_list","perms":"","describe":"机柜-列表","state":"START","authoritiesCnName":"机柜权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 17:18:10.392 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:18:10.437 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570526290437
+2019-10-08 17:18:10.439 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570526290439
+2019-10-08 17:18:10.439 DEBUG 21056 --- [http-nio-9600-exec-7] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570526290439
+2019-10-08 17:18:10.502 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT COUNT(1) FROM device_cabinet WHERE status = 'A' 
+2019-10-08 17:18:10.503 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 
+2019-10-08 17:18:10.527 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==>  Preparing: SELECT ID,cabinet_sn,qr_code,device_type,device_num,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_cabinet WHERE status='A' ORDER BY SORT DESC LIMIT ?,? 
+2019-10-08 17:18:10.529 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.d.dao.DeviceCabinetDao.selectPage  : ==> Parameters: 0(Long), 10(Long)
+2019-10-08 17:18:10.540 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.d.dao.DeviceCabinetDao.selectPage  : <==      Total: 1
+2019-10-08 17:18:10.541 DEBUG 21056 --- [http-nio-9600-exec-7] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570526290541
+2019-10-08 17:18:10.542 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:18:10.543 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 5e261e116955471abce33853e570c3ed(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceCabinetController.list","ip":"127.0.0.1","mqid":"5e261e116955471abce33853e570c3ed","operation":"机柜-列表"}(String), system(String)
+2019-10-08 17:18:10.547 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:18:10.565 DEBUG 21056 --- [http-nio-9600-exec-7] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 17:18:10.569 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570526290569
+2019-10-08 17:18:10.569 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570526290569
+2019-10-08 17:18:10.569 DEBUG 21056 --- [http-nio-9600-exec-7] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570526290569
+2019-10-08 17:18:13.234 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570526293234
+2019-10-08 17:18:13.250 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:18:13.252 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 71206d7f24aa4792a6cc7587d4a3c0de(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","authzCode":"device:deviceline:list","icon":"skill","mqid":"71206d7f24aa4792a6cc7587d4a3c0de","authoritiesName":"device_line","isShow":"N","roleCnName":"","cnName":"密码线-列表","roleName":"device","name":"device_deviceline_list","perms":"","describe":"密码线-列表","state":"START","authoritiesCnName":"密码线权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 17:18:13.257 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:18:13.281 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570526293281
+2019-10-08 17:18:13.283 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570526293283
+2019-10-08 17:18:13.284 DEBUG 21056 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570526293284
+2019-10-08 17:18:13.292 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT COUNT(1) FROM device_line WHERE status = 'A' 
+2019-10-08 17:18:13.292 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:18:13.294 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT ID,line_sn,qr_code,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_line WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 17:18:13.298 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:18:13.299 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.d.dao.DeviceLineDao.selectPage     : <==      Total: 0
+2019-10-08 17:18:13.300 DEBUG 21056 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570526293300
+2019-10-08 17:18:13.301 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:18:13.302 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 2c3f67e2e2ca47c3ba0957cd45ea5058(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","ip":"127.0.0.1","mqid":"2c3f67e2e2ca47c3ba0957cd45ea5058","operation":"密码线-列表"}(String), system(String)
+2019-10-08 17:18:13.311 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:18:13.328 DEBUG 21056 --- [http-nio-9600-exec-8] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 17:18:13.328 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570526293328
+2019-10-08 17:18:13.328 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570526293328
+2019-10-08 17:18:13.329 DEBUG 21056 --- [http-nio-9600-exec-8] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570526293329
+2019-10-08 17:19:27.808  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:19:52.090 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570526392090
+2019-10-08 17:19:52.094 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:19:52.095 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 775ffa975f2f4858828aedb48c42b740(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","authzCode":"device:deviceline:list","icon":"skill","mqid":"775ffa975f2f4858828aedb48c42b740","authoritiesName":"device_line","isShow":"N","roleCnName":"","cnName":"密码线-列表","roleName":"device","name":"device_deviceline_list","perms":"","describe":"密码线-列表","state":"START","authoritiesCnName":"密码线权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 17:19:52.101 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:19:52.172 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570526392172
+2019-10-08 17:19:52.176 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570526392176
+2019-10-08 17:19:52.176 DEBUG 21056 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570526392176
+2019-10-08 17:19:52.178 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT COUNT(1) FROM device_line WHERE status = 'A' 
+2019-10-08 17:19:52.178 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:19:52.179 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT ID,line_sn,qr_code,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_line WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 17:19:52.179 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:19:52.180 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.d.dao.DeviceLineDao.selectPage     : <==      Total: 0
+2019-10-08 17:19:52.181 DEBUG 21056 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570526392181
+2019-10-08 17:19:52.185 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:19:52.186 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 7e77bd084b0240b9bfed227e6debbd19(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","ip":"127.0.0.1","mqid":"7e77bd084b0240b9bfed227e6debbd19","operation":"密码线-列表"}(String), system(String)
+2019-10-08 17:19:52.195 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:19:52.242 DEBUG 21056 --- [http-nio-9600-exec-10] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 17:19:52.242 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570526392242
+2019-10-08 17:19:52.242 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570526392242
+2019-10-08 17:19:52.242 DEBUG 21056 --- [http-nio-9600-exec-10] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570526392242
+2019-10-08 17:24:27.809  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:29:27.810  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:31:18.300 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，开始时间：1570527078300
+2019-10-08 17:31:18.307 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:31:18.307 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: 8eaf9da9a50d4a4c9f3f4ebfc5e1d2dc(String), io.renren.modules.queue.sys.sysService(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","authzCode":"device:deviceline:list","icon":"skill","mqid":"8eaf9da9a50d4a4c9f3f4ebfc5e1d2dc","authoritiesName":"device_line","isShow":"N","roleCnName":"","cnName":"密码线-列表","roleName":"device","name":"device_deviceline_list","perms":"","describe":"密码线-列表","state":"START","authoritiesCnName":"密码线权限","startUpType":"AUTO"}(String), system(String)
+2019-10-08 17:31:18.312 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:31:18.344 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，开始时间：1570527078344
+2019-10-08 17:31:18.347 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect开始：1570527078347
+2019-10-08 17:31:18.347 DEBUG 21056 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect开始：1570527078347
+2019-10-08 17:31:18.350 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT COUNT(1) FROM device_line WHERE status = 'A' 
+2019-10-08 17:31:18.350 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:31:18.351 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.d.dao.DeviceLineDao.selectPage     : ==>  Preparing: SELECT ID,line_sn,qr_code,agent,bus,pos,lease,state,sys_system,sort,status,remarks,version,created_user_id,created_time,modify_user_id,modify_time FROM device_line WHERE status='A' ORDER BY SORT DESC 
+2019-10-08 17:31:18.352 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.d.dao.DeviceLineDao.selectPage     : ==> Parameters: 
+2019-10-08 17:31:18.352 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.d.dao.DeviceLineDao.selectPage     : <==      Total: 0
+2019-10-08 17:31:18.353 DEBUG 21056 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 系统日志，SysLogAspect结束：1570527078353
+2019-10-08 17:31:18.355 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==>  Preparing: INSERT INTO sys_activemq_request ( ID, activemq_type, activemq_context, sys_system ) VALUES ( ?, ?, ?, ? ) 
+2019-10-08 17:31:18.355 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : ==> Parameters: deb11fe0917e4e52b8416b9d92822ba8(String), io.renren.modules.queue.sys.sysLog(String), {"method":"io.renren.modules.device.controller.DeviceLineController.list","ip":"127.0.0.1","mqid":"deb11fe0917e4e52b8416b9d92822ba8","operation":"密码线-列表"}(String), system(String)
+2019-10-08 17:31:18.372 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.m.m.d.SysActivemqRequestDao.insert   : <==    Updates: 1
+2019-10-08 17:31:18.423 DEBUG 21056 --- [http-nio-9600-exec-13] io.renren.framework.aspect.SysLogAspect  : 记录日志SysLogAspect
+2019-10-08 17:31:18.423 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，AuthzCodeAspect结束1570527078423
+2019-10-08 17:31:18.423 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.framework.aspect.AuthzCodeAspect     : 系统授权认证，结束时间：1570527078423
+2019-10-08 17:31:18.424 DEBUG 21056 --- [http-nio-9600-exec-13] i.r.f.aspect.AuthzRegisterAspect         : 系统服务注册，结束时间：1570527078424
+2019-10-08 17:34:27.819  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:39:27.821  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:44:27.822  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:49:27.823  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:54:27.825  INFO 21056 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-08 17:59:26.457  WARN 21056 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1570528766457, current=DOWN, previous=UP]
+2019-10-08 17:59:26.458  INFO 21056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600: registering service...
+2019-10-08 17:59:26.474  INFO 21056 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - registration status: 204
+2019-10-08 17:59:26.507  INFO 21056 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-10-08 17:59:26.509  INFO 21056 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-10-08 17:59:26.526  INFO 21056 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RENREN-CLIENT-DEVICE/DESKTOP-GVUA6BS:renren-client-device:9600 - deregister  status: 200
+2019-10-08 17:59:26.568  INFO 21056 --- [Thread-34] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-10-08 17:59:27.689  INFO 21056 --- [Thread-34] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

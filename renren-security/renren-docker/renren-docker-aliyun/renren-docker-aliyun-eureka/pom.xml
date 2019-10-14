@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>renren-docker-aliyun</artifactId>
+        <groupId>io.renren.docker.aliyun</groupId>
+        <version>4.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.renren.docker.aliyun.eureka</groupId>
+    <artifactId>renren-docker-aliyun-eureka</artifactId>
+    <packaging>jar</packaging>
+    <dependencies>
+        <!--SpringCloud eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!-- 添加docker maven插件 -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.1.1</version>
+                <!--docker镜像相关的配置信息 -->
+                <configuration>
+                    <!-- 与maven配置文件settings.xml中配置的server.id一致，用于推送镜像 -->
+                    <serverId>docker-aliyun</serverId>
+                    <!--私有仓库地址 -->
+                    <registryUrl>registry.cn-hangzhou.aliyuncs.com</registryUrl>
+                    <!--镜像名，这里用工程名 -->
+                    <imageName>registry.cn-hangzhou.aliyuncs.com/sharkapp/${project.artifactId}:${project.version}
+                    </imageName>
+                    <!-- 指定基础镜像 类似dockerfile的FROM指令 -->
+                    <baseImage>java:8</baseImage>
+                    <!-- 配置容器启动后，执行什么命令，等于与 dockerfile的ENTRYPOINT -->
+                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+                    <!-- 为dockerde tag指定版本号、latest -->
+                    <imageTags>
+                        <imageTag>${project.version}</imageTag>
+                        <imageTag>latest</imageTag>
+                    </imageTags>
+                    <!-- 是否有push的功能 true代表有 -->
+                    <pushImage>true</pushImage>
+                    <!-- push后是否覆盖已存在的标签镜像 -->
+                    <forceTags>true</forceTags>
+                    <!-- 复制jar包到docker容器指定的目录 -->
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <!-- 指定要复制jar包的根目录，${project.build.directory}代表 target的目录 -->
+                            <directory>${project.build.directory}</directory>
+                            <!-- 指定要复制的文件，${project.build.finalName}代表打包后的jar -->
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
