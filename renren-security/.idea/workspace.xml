@@ -5,7 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c06cee-c800-43a3-a4ba-f9ecb5296495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/renren-cloud-client-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-agent/renren-cloud-client-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/renren-cloud-client-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-app/renren-cloud-client-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/renren-cloud-client-customer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-customer/renren-cloud-client-customer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-device/renren-cloud-client-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-device/renren-cloud-client-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/renren-cloud-client-mq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-mq/renren-cloud-client-mq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/renren-cloud-client-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-oauth/renren-cloud-client-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/renren-cloud-client-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-order/renren-cloud-client-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/renren-cloud-client-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-shop/renren-cloud-client-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/renren-cloud-client-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-sys/renren-cloud-client-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/renren-cloud-client-token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-client/renren-cloud-client-token/renren-cloud-client-token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/renren-cloud-simple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-simple/renren-cloud-simple.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/renren-cloud-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/renren-cloud-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-common/renren-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-common/renren-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-framework/renren-framework-aspect/renren-framework-aspect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-framework/renren-framework-aspect/renren-framework-aspect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-framework/renren-framework-utils/renren-framework-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-framework/renren-framework-utils/renren-framework-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/renren-modules-bus-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/renren-modules-bus-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-app/renren-modules-bus-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-app/renren-modules-bus-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-cu/renren-modules-bus-cu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-cu/renren-modules-bus-cu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-device/renren-modules-bus-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-device/renren-modules-bus-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-log/renren-modules-bus-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-log/renren-modules-bus-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-mq/renren-modules-bus-mq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-mq/renren-modules-bus-mq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-oauth/renren-modules-bus-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-oauth/renren-modules-bus-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-order/renren-modules-bus-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-order/renren-modules-bus-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-attachment/renren-modules-bus-resources-attachment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-attachment/renren-modules-bus-resources-attachment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-other/renren-modules-bus-resources-other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources-other/renren-modules-bus-resources-other.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-resources/renren-modules-bus-resources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-service/renren-modules-bus-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-service/renren-modules-bus-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-shop/renren-modules-bus-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-shop/renren-modules-bus-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-sys/renren-modules-bus-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-sys/renren-modules-bus-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-agent/renren-modules-mq-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-agent/renren-modules-mq-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-app/renren-modules-mq-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-app/renren-modules-mq-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-cu/renren-modules-mq-cu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-cu/renren-modules-mq-cu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-device/renren-modules-mq-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-device/renren-modules-mq-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-log/renren-modules-mq-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-log/renren-modules-mq-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-oauth/renren-modules-mq-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-oauth/renren-modules-mq-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-order/renren-modules-mq-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-order/renren-modules-mq-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-attachment/renren-modules-mq-resources-attachment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-attachment/renren-modules-mq-resources-attachment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-other/renren-modules-mq-resources-other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources-other/renren-modules-mq-resources-other.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-resources/renren-modules-mq-resources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-service/renren-modules-mq-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-service/renren-modules-mq-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-shop/renren-modules-mq-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-shop/renren-modules-mq-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/renren-modules-mq-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/renren-modules-mq-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-token/renren-modules-mq-token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-token/renren-modules-mq-token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-agent/renren-modules-request-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-agent/renren-modules-request-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-app/renren-modules-request-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-app/renren-modules-request-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-base/renren-modules-request-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-base/renren-modules-request-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-cu/renren-modules-request-cu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-cu/renren-modules-request-cu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-device/renren-modules-request-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-device/renren-modules-request-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-log/renren-modules-request-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-log/renren-modules-request-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-oauth/renren-modules-request-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-oauth/renren-modules-request-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-order/renren-modules-request-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-order/renren-modules-request-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-attachment/renren-modules-request-resources-attachment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-attachment/renren-modules-request-resources-attachment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-other/renren-modules-request-resources-other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources-other/renren-modules-request-resources-other.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-resources/renren-modules-request-resources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-service/renren-modules-request-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-service/renren-modules-request-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-shop/renren-modules-request-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-shop/renren-modules-request-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-sys/renren-modules-request-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-sys/renren-modules-request-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-token/renren-modules-request-token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request-token/renren-modules-request-token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-request/renren-modules-request.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/renren-modules-service-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-agent/renren-modules-service-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-app/renren-modules-service-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-app/renren-modules-service-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-cu/renren-modules-service-cu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-cu/renren-modules-service-cu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-device/renren-modules-service-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-device/renren-modules-service-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-log/renren-modules-service-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-log/renren-modules-service-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-oauth/renren-modules-service-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-oauth/renren-modules-service-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-order/renren-modules-service-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-order/renren-modules-service-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-attachment/renren-modules-service-resources-attachment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-attachment/renren-modules-service-resources-attachment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-other/renren-modules-service-resources-other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources-other/renren-modules-service-resources-other.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-resources/renren-modules-service-resources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-service/renren-modules-service-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-service/renren-modules-service-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/renren-modules-service-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/renren-modules-service-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/renren-modules-service-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/renren-modules-service-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-access/renren-modules-service-token-access.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-access/renren-modules-service-token-access.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-info/renren-modules-service-token-info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-info/renren-modules-service-token-info.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-logOut/renren-modules-service-token-logOut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-logOut/renren-modules-service-token-logOut.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-sys/renren-modules-service-token-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-sys/renren-modules-service-token-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-weixin/renren-modules-service-token-weixin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token-weixin/renren-modules-service-token-weixin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-token/renren-modules-service-token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/renren-modules-web-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/renren-modules-web-agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-app/renren-modules-web-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-app/renren-modules-web-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-cu/renren-modules-web-cu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-cu/renren-modules-web-cu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-device/renren-modules-web-device.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-device/renren-modules-web-device.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-log/renren-modules-web-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-log/renren-modules-web-log.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-oauth/renren-modules-web-oauth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-oauth/renren-modules-web-oauth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-order/renren-modules-web-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-order/renren-modules-web-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-attachment/renren-modules-web-resources-attachment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-attachment/renren-modules-web-resources-attachment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/renren-modules-web-resources-other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/renren-modules-web-resources-other.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-service/renren-modules-web-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-service/renren-modules-web-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/renren-modules-web-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/renren-modules-web-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-sys/renren-modules-web-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-sys/renren-modules-web-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-access/renren-modules-web-token-access.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-access/renren-modules-web-token-access.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-info/renren-modules-web-token-info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-info/renren-modules-web-token-info.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-logOut/renren-modules-web-token-logOut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-logOut/renren-modules-web-token-logOut.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-sys/renren-modules-web-token-sys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-sys/renren-modules-web-token-sys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-weixin/renren-modules-web-token-weixin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-weixin/renren-modules-web-token-weixin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-modules/renren-modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-modules/renren-modules.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-cu/target/" />
@@ -143,35 +248,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPreZuulFilter.java">
+        <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/HttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/AbstractController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/DateUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2593">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/SoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java">
+        <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/CLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/config/FilterConfig.java">
+        <entry file="file://$PROJECT_DIR$/renren-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="608">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/LogPostZuulFilter.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -179,8 +309,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -219,7 +349,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/src/main/java/io/renren/modules/sys/service/impl/SysOauthCodeServiceImpl.java" root0="SKIP_INSPECTION" />
@@ -227,9 +357,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/renren-modules/renren-modules-bus/renren-modules-bus-agent/src/main/java/io/renren/modules/agent/entity/AgentShopBusEntity.java" />
-        <option value="$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/PayUtil.java" />
-        <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopPosController.java" />
         <option value="$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/src/main/java/io/renren/modules/sys/service/SysOauthCodeService.java" />
         <option value="$PROJECT_DIR$/renren-modules/renren-modules-mq/renren-modules-mq-sys/src/main/java/io/renren/modules/sys/mq/SysOauthCodeConsumer.java" />
         <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-agent/src/main/java/io/renren/modules/agent/controller/AgentShopBusController.java" />
@@ -278,6 +405,9 @@
         <option value="$PROJECT_DIR$/renren-generator/src/main/resources/template/Api.js.vm" />
         <option value="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/src/main/java/io/renren/modules/sys/controller/SysAdController.java" />
         <option value="$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java" />
+        <option value="$PROJECT_DIR$/renren-common/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-common/src/main/java/SoTest.java" />
+        <option value="$PROJECT_DIR$/renren-common/src/main/java/CLibrary.java" />
       </list>
     </option>
   </component>
@@ -299,7 +429,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1527" />
@@ -311,7 +441,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,10 +448,37 @@
               <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="renren-security" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-security" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-security" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-security" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="renren-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-security" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -379,16 +535,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulSpringApplication">
-    <configuration name="PayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.PayUtil" />
+  <component name="RunManager" selected="Application.SoTest">
+    <configuration name="SoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SoTest" />
       <module name="renren-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -544,7 +694,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PayUtil" />
       <item itemvalue="Maven.renren-docker-aliyun-eureka [clean...]" />
       <item itemvalue="Spring Boot.EurekaSpringApplication" />
       <item itemvalue="Spring Boot.GeneratorApplication" />
@@ -560,14 +709,15 @@
       <item itemvalue="Spring Boot.SysClientMQApplication" />
       <item itemvalue="Spring Boot.SysClientAgentApplication" />
       <item itemvalue="Spring Boot.SysClientDeviceApplication" />
+      <item itemvalue="Application.SoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SoTest" />
         <item itemvalue="Spring Boot.ZuulSpringApplication" />
         <item itemvalue="Spring Boot.SysClientAgentApplication" />
         <item itemvalue="Spring Boot.SysClientDeviceApplication" />
         <item itemvalue="Spring Boot.SysClientMQApplication" />
-        <item itemvalue="Application.PayUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -626,11 +776,12 @@
       <workItem from="1570870129314" duration="252000" />
       <workItem from="1570871247070" duration="2312000" />
       <workItem from="1571014745395" duration="1233000" />
+      <workItem from="1571020742536" duration="3043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231173000" />
+    <option name="totallyTimeSpent" value="234216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,6 +794,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1527" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -650,14 +802,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24267212" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.17177914" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.34099618" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="1" weight="0.32950193" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.25287357" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5003408" side_tool="true" weight="0.3128991" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.55427843" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.55370843" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.32950193" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
@@ -665,7 +817,7 @@
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.201788" />
       <window_info anchor="bottom" id="Run" order="12" weight="0.31673053" />
-      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.49965918" weight="0.34993616" />
+      <window_info active="true" anchor="bottom" id="Debug" order="13" sideWeight="0.49965918" visible="true" weight="0.16879795" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.32950193" />
@@ -716,48 +868,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-request/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-bus/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-sys/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="45" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-service/renren-modules-service-shop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-sys/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-shop/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1055,8 +1165,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renren-cloud/renren-cloud-zuul/src/main/java/io/renren/cloud/zuul/zuul/ZuulFallBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="295">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/io/renren/common/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2593">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/SoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/java/CLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

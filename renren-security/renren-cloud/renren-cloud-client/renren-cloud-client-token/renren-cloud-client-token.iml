@@ -48,6 +48,7 @@
     <orderEntry type="module" module-name="renren-framework-annotation" />
     <orderEntry type="module" module-name="renren-modules-request-base" />
     <orderEntry type="module" module-name="renren-common" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.5.1" level="project" />
     <orderEntry type="library" name="Maven: jdom:jdom:1.0" level="project" />
     <orderEntry type="library" name="Maven: com.belerweb:pinyin4j:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-mail:2.0.1.RELEASE" level="project" />
