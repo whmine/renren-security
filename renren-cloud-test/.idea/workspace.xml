@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa9655bd-2b3f-4159-8859-b8f77cfd807a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloJNI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/logs/renren-client-simple.log" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/logs/renren-client-simple.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/logs/renren-cloud-eureka.log" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/logs/renren-cloud-eureka.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/logs/renren-cloud-zuul.log" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/logs/renren-cloud-zuul.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-cloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/SysClientAgentApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-agent/target/classes/io/renren/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/SysClientSysApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/io/renren/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-sys/target/classes/statics/tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/SysClientTokenApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-client/renren-cloud-client-token/target/classes/io/renren/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-eureka/target/classes/io/renren/cloud/eureka/EurekaSpringApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/io/renren/config/CacheManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/io/renren/config/CacheManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-simple/target/classes/io/renren/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/ZuulSpringApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/SwaggerResourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/config/WebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/zuul/LogPreZuulFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/zuul/ZuulFallBack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-cloud/renren-cloud-zuul/target/classes/io/renren/cloud/zuul/zuul/ZuulFallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/CLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/SoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/CLibrary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/target/classes/CLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/target/classes/SoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-common/target/classes/SoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopGoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopGradeGoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopGradeMyGoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopMyGoodsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/dao/ShopPayDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopGoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopGradeGoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopGradeMyGoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopMyGoodsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopOrderEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/io/renren/modules/shop/entity/ShopPayEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopGoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopGradeGoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopGradeMyGoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopMyGoodsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopOrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/classes/mapper/shop/ShopPayDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-bus/renren-modules-bus-shop/target/renren-modules-bus-shop-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsBuyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsConfigInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGoodsUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsChangeRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeGoodsUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsListRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsSendRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopGradeMyGoodsUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsListRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopMyGoodsUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderMyListRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderSaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopOrderUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPayDelRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPayInfoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPayPageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPayPushRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPaySaveRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/classes/io/renren/modules/shop/request/ShopPayUpdateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-request/renren-modules-request-shop/target/renren-modules-request-shop-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-agent/target/classes/io/renren/modules/agent/controller/AgentShopAdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-agent/target/classes/io/renren/modules/agent/controller/AgentShopBusController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-agent/target/classes/io/renren/modules/agent/controller/AgentShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-agent/target/classes/io/renren/modules/agent/controller/AgentShopPosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/target/classes/io/renren/modules/sys/controller/SysAdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-resources/renren-modules-web-resources-other/target/classes/io/renren/modules/sys/controller/SysAdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopGradeGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopGradeMyGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopMyGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/controller/ShopPayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopGradeGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopGradeMyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopMyGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/ShopPayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopGradeGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopGradeMyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopMyGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/classes/io/renren/modules/shop/service/impl/ShopPayServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../renren-security/renren-modules/renren-modules-web/renren-modules-web-shop/target/renren-modules-web-shop-4.0.0.jar" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Native.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="261" selection-start-line="261" selection-end-line="261" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Library.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/NativeLibrary.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="284" column="38" selection-start-line="284" selection-start-column="38" selection-end-line="284" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
+              <folding>
+                <element signature="e#76090#76091#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/AppUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/CLibrary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloJNI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloMain.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\repo" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="627" />
+    <option name="y" value="137" />
+    <option name="width" value="1422" />
+    <option name="height" value="602" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="renren-cloud-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/win32-x86-64" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\091001\renren-security20191014\renren-cloud-test\src\main\resources\linux-x86-64" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\091001\renren-security20191014\renren-cloud-test\src\main\resources\win32-x86-64" />
+      <recent name="D:\work\091001\renren-security20191014\renren-cloud-test" />
+      <recent name="D:\work\091001\renren-security20191014\renren-cloud-test\src\main\java\io\renren\common\utils" />
+      <recent name="D:\work\091001\renren-security20191014\renren-cloud-test\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HelloMain">
+    <configuration name="HelloJNI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.HelloJNI" />
+      <module name="springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.HelloMain" />
+      <module name="springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysClientTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.SysClientTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloMain" />
+        <item itemvalue="Application.HelloJNI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa9655bd-2b3f-4159-8859-b8f77cfd807a" name="Default Changelist" comment="" />
+      <created>1571044523333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571044523333</updated>
+      <workItem from="1571044527161" duration="3086000" />
+      <workItem from="1571099274113" duration="4398000" />
+      <workItem from="1571103946813" duration="21095000" />
+      <workItem from="1571131045693" duration="2862000" />
+      <workItem from="1571188613238" duration="2306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33747000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1527" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23560555" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.49744245" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32992327" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32992327" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.4769821" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.48507464" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="RestServices" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.08471211" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.31833676" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.49744245" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32992327" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32992327" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.4769821" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4859335" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="RestServices" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.0872529" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Native.class</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Library.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/NativeLibrary.class</url>
+          <line>285</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="CLibrary.class.getResource(&quot;&quot;).getPath()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>CLibrary.class.getResource(&quot;&quot;).getPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="1120" column="23" selection-start-line="1120" selection-start-column="23" selection-end-line="1120" selection-end-column="23" />
+          <folding>
+            <element signature="e#44970#44971#0" expanded="true" />
+            <element signature="e#45051#45052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/repo/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/SysClientTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/AppUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloJNI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/CLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Function.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Native.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/Library.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/repo/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar!/com/sun/jna/NativeLibrary.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="284" column="38" selection-start-line="284" selection-start-column="38" selection-end-line="284" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
+          <folding>
+            <element signature="e#76090#76091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/HelloMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -120,6 +120,7 @@
       <module fileurl="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-sys/renren-modules-web-token-sys.iml" filepath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-sys/renren-modules-web-token-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-weixin/renren-modules-web-token-weixin.iml" filepath="$PROJECT_DIR$/renren-modules/renren-modules-web/renren-modules-web-token/renren-modules-web-token-weixin/renren-modules-web-token-weixin.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-security.iml" filepath="$PROJECT_DIR$/renren-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-cloud/renren-cloud-test/springboot.iml" filepath="$PROJECT_DIR$/renren-cloud/renren-cloud-test/springboot.iml" />
     </modules>
   </component>
 </project>

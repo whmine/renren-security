@@ -1,0 +1,7 @@
+io\renren\common\utils\HelloMain.class
+io\renren\controller\HelloController.class
+io\renren\common\utils\HelloMain$Clibrary.class
+io\renren\SysClientTestApplication.class
+io\renren\common\utils\CLibrary.class
+io\renren\common\utils\AppUtils.class
+io\renren\common\utils\HelloJNI.class

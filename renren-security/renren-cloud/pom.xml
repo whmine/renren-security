@@ -17,5 +17,6 @@
         <module>renren-cloud-client</module>
         <module>renren-cloud-zuul</module>
         <module>renren-cloud-simple</module>
+        <module>renren-cloud-test</module>
     </modules>
 </project>
